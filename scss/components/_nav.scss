@@ -1,0 +1,119 @@
+// menu
+// ----------------------------------------------
+
+.menu {
+	position: fixed;
+	top: 0;
+	right: -320px;
+	bottom: 0;
+	width: 320px;
+	margin: 0;
+	padding: 0;
+	transition: all .5s ease-in-out;
+	background-color: $c-white;
+	z-index: 1;
+
+	&--top {
+		position: relative;
+		height: 40px;
+		margin: 0 auto;
+		padding: 10px;
+		font-size: 32px;
+		line-height: 40px;
+		overflow: hidden;
+	}
+
+	.container {
+		position: relative;
+		width: 258px;
+		height: 100%;
+		margin: 0 auto;
+		transform: matrix(.8, 0, 0, .9, 40, 0);
+		transition: all .5s ease-in-out;
+		overflow: hidden;
+		transform-origin: 0% 50% 0;
+	}
+}
+
+.menu__toggle {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40px;
+	height: 40px;
+	margin: 10px 20px;
+	color: $c-white;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.menu__close {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40px;
+	height: 40px;
+	margin: 10px 20px;
+	color: $c-gray-darkest;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+
+	&:hover {
+		color: $c-primary;
+	}
+}
+
+.nav {
+	position: relative;
+	width: 275px;
+	padding: 10px 0;
+	border-top: 3px solid $c-gray;
+	border-bottom: 3px solid $c-gray;
+	overflow: visible;
+	overflow-y: scroll;
+
+
+	&__item {
+		display: block;
+		height: 39px;
+		border-bottom: 1px solid $c-white-darker;
+		font-size: 12px;
+		font-weight: bold;
+		letter-spacing: .12rem;
+		line-height: 39px;
+		text-transform: uppercase;
+
+		&:nth-child(4) {
+			border-bottom: 0;
+		}
+
+	}
+
+	&__link {
+		color: $c-gray-darker;
+		text-decoration: none;
+
+		&:hover {
+			color: $c-primary;
+		}
+	}
+}
+
+// effects for menu
+// ----------------------------------------------
+html.active menu {
+	right: 0;
+	z-index: 999;
+}
+
+html.active menu .container {
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  transition: all .5s ease-in-out;
+  transform-origin: 0% 50% 0px;
+}
