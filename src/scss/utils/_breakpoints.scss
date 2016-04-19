@@ -1,0 +1,14 @@
+// utils/breakpoints.scss
+// ----------------------------------------------------------------------------
+
+@mixin media($bp) {
+	@if $bp == sm {
+		@media (max-width: $bp-small) { @content; }
+	} @else if $bp == md {
+		@media (min-width: $bp-medium) { @content; }
+	} @else if $bp == lg {
+		@media (min-width: $bp-large) { @content; }
+	} @else if $bp == xl {
+  	@media (min-width: $bp-xlarge) { @content; }
+	}
+}

@@ -1,30 +1,33 @@
 'use strict';
 
 var gulp = require('gulp'),
-  sass = require('gulp-sass'),
-  connect = require('gulp-connect');
-
-gulp.task('sass', function () {
-  gulp.src('./scss/**/*.scss')
-    .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./css'));
-});
+    sass = require('gulp-sass'),
+    connect = require('gulp-connect');
 
 gulp.task('connect', function() {
   connect.server({
-    root: './',
+    root: './src',
     livereload: true
   });
 });
 
-gulp.task('reload', function () {
-  gulp.src('./**/*.html')
+gulp.task('html', function () {
+  gulp
+		.src('./src/*.html')
     .pipe(connect.reload());
 });
 
+gulp.task('sass', function () {
+  gulp
+		.src('./src/scss/**/*.scss')
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('./src/css'))
+		.pipe(connect.reload());
+});
+
 gulp.task('watch', function () {
-  gulp.watch(['./scss/**/*.scss'], ['sass']);
-  gulp.watch(['./**/*.*'], ['reload']);
+	gulp.watch(['./src/*.html'], ['html']);
+	gulp.watch(['./src/scss/**/*.scss'], ['sass']);
 });
 
 gulp.task('default', ['sass', 'connect', 'watch']);
