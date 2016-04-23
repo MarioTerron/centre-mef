@@ -1,176 +1,29 @@
 @import 'utils/variables';
 @import 'utils/breakpoints';
 @import 'base/reset';
-@import 'base/typography';
+@import 'base/base';
+@import 'base/font-face';
 @import 'layout/grid';
 
 
-// menu
-// ----------------------------------------------
 
-.menu {
-	position: fixed;
-	top: 0;
-	right: -320px;
-	bottom: 0;
-	width: 320px;
-	margin: 0;
-	padding: 0;
-	transition: all .5s ease-in-out;
-	background-color: $c-white;
-	z-index: 1;
+/*------------------------------------
+    $LAYOUT
+  ------------------------------------*/
 
-	&__header {
-		position: relative;
-		height: 40px;
-		margin: 0 auto;
-		padding: 10px;
-		font-size: 32px;
-		line-height: 40px;
-		overflow: hidden;
-	}
+// Header
+// -----------------------------------------------------------------------------
 
-	&__items {
-		position: relative;
-		width: 258px;
-		// height: 100%;
-		margin: 0 auto;
-		transform: matrix(.8, 0, 0, .9, 40, 0);
-		transition: all .5s ease-in-out;
-		overflow: hidden;
-		transform-origin: 0% 50% 0;
-
-		ul {
-			position: relative;
-			width: 275px;
-			padding: 10px 0;
-			border-top: 3px solid $c-gray;
-			border-bottom: 3px solid $c-gray;
-			overflow: visible;
-			overflow-y: scroll;
-		}
-
-		li {
-			display: block;
-			height: 39px;
-			border-bottom: 1px solid $c-white-darker;
-			font-size: 12px;
-			font-weight: bold;
-			letter-spacing: .12rem;
-			line-height: 39px;
-			text-transform: uppercase;
-
-			li:nth-child(4) {
-				border-bottom: 0;
-			}
-		}
-
-		a {
-			color: $c-gray-darker;
-			text-decoration: none;
-
-			&:hover {
-				color: $c-primary;
-			}
-		}
-	}
-}
-
-.icon-menu {
-	display: block;
-	position: fixed;
-	top: 0;
-	right: 0;
-	width: 40px;
-	height: 40px;
-	margin: 10px 20px;
-	color: $c-white;
-	font-size: 30px;
-	line-height: 40px;
-	text-align: center;
-	cursor: pointer;
-}
-
-.icon-close {
-	display: block;
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 40px;
-	height: 40px;
-	margin: 10px 20px;
-	color: $c-gray-darkest;
-	font-size: 30px;
-	line-height: 40px;
-	text-align: center;
-	cursor: pointer;
-
-	&:hover {
-		color: $c-primary;
-	}
-}
-
-
-// menu effects
-
-.active,
-.active body {
-	overflow: hidden;
-}
-
-.active section {
-	transform: matrix(1, 0, 0, 1, -320, 0);
-	transition: all .5s ease-in-out;
-}
-
-.overlay {
-	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	transition: all .5s ease-in-out;
-	background: $c-black;
-	opacity: 0;
-	overflow: hidden;
-	visibility: hidden;
-	z-index: 99;
-}
-
-.active .overlay {
-	transition: all .5s ease-in-out;
-	opacity: .65;
-	visibility: visible;
-}
-
-.active menu {
-	right: 0;
-	z-index: 999;
-
-	.menu__items {
-		transform: matrix(1, 0, 0, 1, 0, 0);
-		transition: all .5s ease-in-out;
-		transform-origin: 0% 50% 0;
-	}
-}
-
-
-// jumbotron
-// ----------------------------------------------
-
-.jumbotron {
+.header {
 	position: relative;
 	z-index: -1;
 
-	&--banner {
+	&--img {
 		width: 100%;
 		height: 43.5em;
 		padding: 0;
-		background: url('../img/RFTC-12.jpg') center center;
+		background: url('../img/header.png') center center;
 		background-size: cover;
-		overflow: hidden;
 	}
 
 	&__video {
@@ -178,7 +31,7 @@
 		width: 100%;
 
 		@include media(lg) {
-			display: block;
+			display: none;
 			right: 50%;
 			bottom: 50%;
 			width: auto;
@@ -191,7 +44,7 @@
 
 	&__container {
 		position: absolute;
-		top: 300px;
+		top: 50%;
 		width: 100%;
 		color: $c-white;
 		text-align: center;
@@ -200,30 +53,27 @@
 		h1 {
 			margin-bottom: 0;
 			color: $c-white;
-			font-size: 2.75rem;
-			text-align: center;
 			text-shadow: 0 2px 3px $c-shadow;
+			text-transform: uppercase;
 
 			@include media(md) {
 				padding: 0;
-				font-size: 4rem;
+				font-size: 4.75rem;
 		  }
 
 			@include media(xl) {
-				font-size: 6rem;
+				font-size: 5rem;
 			}
 		}
 
 		p {
 			margin-bottom: 0;
 			color: $c-white;
-			text-align: center;
 			text-shadow: 0 2px 3px $c-shadow;
 			text-transform: uppercase;
 
 			@include media(md) {
 				font-size: 1.25rem;
-				// letter-spacing: 1.3px;
 		  }
 
 			@include media(xl) {
@@ -235,7 +85,7 @@
 
 
 // activities
-// ----------------------------------------------
+// -----------------------------------------------------------------------------
 
 .activities {
 	padding: 115px 0;
@@ -251,43 +101,105 @@
 
 	img {
 		width: 100%;
-
-
 	}
 
 	h2 {
 		color: $c-primary;
 		font-size: 1.5rem;
+		text-transform: uppercase;
 	}
 }
 
-// parallax
-// ----------------------------------------------
+// Parallax
+// -----------------------------------------------------------------------------
 
 .parallax {
 	background-color: $c-primary;
 
 	&__image {
 		height: 540px;
-		background: url('../img/parallax1.jpg');
+		background: url('../img/parallax1.jpg') center center;
 		background-size: cover;
-
 	}
 
 	&__container {
-		@include container;
+		@include container(75%);
 		padding: 45px 0;
 
 		h2 {
 			@include span (6);
 			color: $c-white;
-			font-size: 2.5em;
+			font-size: 2em;
+			text-align: center;
+			text-transform: uppercase;
 		}
 
 		p {
 			@include span (6);
 			margin-bottom: 0;
 			color: $c-white;
+		}
+	}
+}
+
+// footer
+// ----------------------------------------------
+
+.footer {
+	padding: 40px 0;
+	background: $c-black;
+	text-align: center;
+}
+
+.footer__text {
+	color: $c-gray;
+	font-size: .85rem;
+	font-weight: 400;
+}
+
+.footer__link {
+	color: $c-white;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.footer__icon {
+	color: $c-primary;
+}
+
+.social-icons {
+	display: block;
+	margin-bottom: 1rem;
+
+	li {
+		display: inline-block;
+		position: relative;
+		margin-right: 2px;
+
+		a {
+			display: block;
+			width: 38px;
+			height: 38px;
+			border-radius: 50%;
+			background-color: $c-gray-darkest;
+			color: $c-white;
+			line-height: 38px;
+			text-align: center;
+		}
+
+		&:nth-of-type(1) a:hover {
+			background-color: $c-facebook;
+		}
+
+		&:nth-of-type(2) a:hover {
+			background-color: $c-twitter;
+		}
+
+		&:nth-of-type(3) a:hover {
+			background-color: $c-youtube;
 		}
 	}
 }
