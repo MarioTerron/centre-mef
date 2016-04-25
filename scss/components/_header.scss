@@ -1,0 +1,54 @@
+// Header
+// -----------------------------------------------------------------------------
+
+.header {
+	height: 100%;
+	min-height: 500px;
+	max-height: 900px;
+	overflow: hidden;
+
+	.container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__bg {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: url('../img/header.png') center center;
+		background-size: cover;
+	}
+
+	h1 {
+		margin-bottom: 0;
+		color: $c-white;
+		font-size: 4em;
+		text-shadow: 0 2px 3px $c-shadow;
+		text-transform: uppercase;
+		z-index: 1;
+
+		@include media(md) {
+			font-size: 4.75rem;
+		}
+	}
+
+	p {
+		margin-bottom: 0;
+		color: $c-white;
+		text-shadow: 0 2px 3px $c-shadow;
+		text-transform: uppercase;
+		z-index: 1;
+
+		@include media(md) {
+			font-size: 1.25rem;
+		}
+	}
+}

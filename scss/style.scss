@@ -1,0 +1,28 @@
+@import 'utils/variables';
+@import 'utils/breakpoints';
+@import 'base/reset';
+@import 'base/base';
+@import 'base/grid';
+
+
+/*------------------------------------
+    $LAYOUT
+  ------------------------------------*/
+
+
+// Header
+// -----------------------------------------------------------------------------
+
+@import 'components/header';
+
+
+// Activities
+// -----------------------------------------------------------------------------
+
+@import 'components/activities';
+
+
+// Footer
+// -----------------------------------------------------------------------------
+
+@import 'components/footer';
