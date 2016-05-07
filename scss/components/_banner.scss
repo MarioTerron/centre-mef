@@ -1,21 +1,14 @@
-// Header
-// -----------------------------------------------------------------------------
-
-.header {
+.banner {
+	height: 100%;
 	min-height: 500px;
 	max-height: 900px;
-	background: url('../img/header.png') no-repeat center center;
+	background: linear-gradient($c-shadow, $c-shadow), url('../img/banner.jpg') no-repeat center center;
 	background-size: cover;
-
-	@include media(md) {
-		height: 100%;
-	}
 
 	.container {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-
 	}
 
 	.content {
@@ -27,25 +20,15 @@
 	&__title {
 		margin-bottom: 0;
 		color: $c-white;
-		font-weight: $fw-bold;
 		text-shadow: 0 2px 3px $c-shadow;
-		text-transform: uppercase;
 		z-index: 1;
 
-		@include media(md) {
-			font-size: 4.75rem;
-		}
-	}
+  }
 
 	&__subtitle {
 		margin-bottom: 0;
 		color: $c-white;
 		text-shadow: 0 2px 3px $c-shadow;
-		text-transform: uppercase;
 		z-index: 1;
-
-		@include media(md) {
-			font-size: 1.25rem;
-		}
-	}
+  }
 }

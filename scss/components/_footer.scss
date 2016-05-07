@@ -2,22 +2,23 @@
 // ----------------------------------------------
 
 .footer {
-	padding: 40px 0;
-	background-color: $c-black;
+	padding: 50px 0;
+	background-color: $c-footer-bg;
 	text-align: center;
 
 	p {
-		color: $c-gray;
+		color: $c-footer-text;
 		font-size: .85rem;
 		font-weight: 400;
 	}
 
 	a {
-		color: $c-white;
+		color: $c-footer-text;
+		font-weight: 600;
 		text-decoration: none;
 
 		&:hover {
-			text-decoration: underline;
+			color: $c-gray-darker;
 		}
 	}
 
@@ -40,10 +41,14 @@
 			width: 38px;
 			height: 38px;
 			border-radius: 50%;
-			background-color: $c-gray-darkest;
-			color: $c-white;
+			background-color: $c-footer-icons-bg;
+			color: $c-footer-icons;
 			line-height: 38px;
 			text-align: center;
+
+			&:hover {
+				color: $c-footer-icons;
+			}
 		}
 
 		&:nth-of-type(1) a:hover {
@@ -56,6 +61,10 @@
 
 		&:nth-of-type(3) a:hover {
 			background-color: $c-youtube;
+		}
+		&:nth-of-type(4) a:hover {
+			background-color: $c-instagram;
+
 		}
 	}
 }

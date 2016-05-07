@@ -1,0 +1,21 @@
+// activities
+// -----------------------------------------------------------------------------
+
+.activities {
+	padding-bottom: 80px;
+}
+
+.activity-card {
+	@include span (12);
+	text-align: center;
+
+	@include media(md) {
+		@include span(4);
+		text-align: left;
+	}
+
+	h2 {
+		padding-top: 80px;
+		text-transform: uppercase;
+	}
+}
