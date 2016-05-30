@@ -4,52 +4,33 @@
 .header {
 	min-height: 500px;
 	max-height: 900px;
-	background: url('../img/header.png') no-repeat center center;
-	background-size: cover;
 
 	@include media(md) {
 		height: 100%;
-	}
-
-	.container {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-
-	}
-
-	.content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
 	}
 
 	&__title {
 		margin-bottom: 0;
 		color: $c-white;
 		font-weight: 900;
-		line-height: 120px;
 		letter-spacing: .2rem;
-		text-shadow: 0 2px 3px $c-shadow;
-		text-shadow: 	.5px .5px
-								$c-secondary,1px 1px
-								$c-secondary,1.5px 1.5px
-								$c-secondary,2px 2px
-								$c-secondary,2.5px 2.5px
-								$c-secondary,3px 3px
-								$c-secondary,3.5px 3.5px
-								$c-secondary,4px 4px
-								$c-secondary,4.5px 4.5px
-								$c-secondary,5px 5px
-								$c-secondary,5.5px 5.5px
-								$c-secondary,6px 6px
-								$c-secondary,6.5px 6.5px
-								$c-secondary,7px 7px
-								$c-secondary;
+		line-height: 120px;
+		text-shadow: .5px .5px $c-secondary,
+									1px 1px $c-secondary,
+									1.5px 1.5px $c-secondary,
+									2px 2px $c-secondary,
+									2.5px 2.5px	$c-secondary,
+									3px 3px $c-secondary,
+									3.5px 3.5px $c-secondary,
+									4px 4px $c-secondary,
+									4.5px 4.5px $c-secondary,
+									5px 5px $c-secondary,
+									5.5px 5.5px $c-secondary,
+									6px 6px $c-secondary,
+									6.5px 6.5px $c-secondary,
+									7px 7px $c-secondary;
 		text-transform: uppercase;
 		z-index: 1;
-
-
 
 		@include media(md) {
 			font-size: 6.5rem;
@@ -68,4 +49,19 @@
 			font-size: 2.25rem;
 		}
 	}
+}
+
+.video-container {
+	position: relative;
+	bottom: 0%;
+	left: 0%;
+	overflow: hidden;
+}
+
+.description-container {
+	position: absolute;
+	top: 35%;
+	width: 100%;
+	text-align: center;
+	z-index: 1000;
 }
