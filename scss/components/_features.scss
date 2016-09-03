@@ -3,11 +3,11 @@
 	background-color: $c-primary;
 
 	> .container {
-		max-width: 80%;
 		display: flex;
+		max-width: 90%;
 
-		@include media(xl) {
-			max-width: 60%;
+		@include media(md) {
+			max-width: 70%;
 		}
 	}
 
