@@ -8,7 +8,7 @@
 
 .header {
 	width: 100%;
-	min-height: 500px;
+	min-height: 620px;
 	max-height: 960px;
 	background: url('../img/header.png') no-repeat center center;
 	background-size: cover;
@@ -89,7 +89,7 @@ video {
 
 
 	@include media(md) {
-		display: block;;
+		display: block;
 	}
 }
 
