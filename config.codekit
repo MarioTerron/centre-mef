@@ -93,24 +93,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/A3.jpg": {
+	"\/img\/A3-original.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 435152,
-		"inputAbbreviatedPath": "\/img\/A3.jpg",
-		"outputAbbreviatedPath": "\/img\/A3.jpg",
+		"initialSize": 544101,
+		"inputAbbreviatedPath": "\/img\/A3-original.jpg",
+		"outputAbbreviatedPath": "\/img\/A3-original.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/A3MINI.jpg": {
+	"\/img\/A3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 227262,
-		"inputAbbreviatedPath": "\/img\/A3MINI.jpg",
-		"outputAbbreviatedPath": "\/img\/A3MINI.jpg",
+		"inputAbbreviatedPath": "\/img\/A3.jpg",
+		"outputAbbreviatedPath": "\/img\/A3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -119,9 +119,31 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 544101,
+		"initialSize": 435152,
 		"inputAbbreviatedPath": "\/img\/A4.jpg",
 		"outputAbbreviatedPath": "\/img\/A4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/A5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61516,
+		"inputAbbreviatedPath": "\/img\/A5.jpg",
+		"outputAbbreviatedPath": "\/img\/A5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/A6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57262,
+		"inputAbbreviatedPath": "\/img\/A6.jpg",
+		"outputAbbreviatedPath": "\/img\/A6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

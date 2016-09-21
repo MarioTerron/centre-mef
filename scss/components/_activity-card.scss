@@ -21,15 +21,6 @@
 		}
 	}
 
-	&:nth-of-type(1) .img-wrapper {
-		background-image: url('../img/A1.jpg');
-	}
-
-	&:nth-of-type(2) .img-wrapper {
-		background-image: url('../img/A2.jpg');
-	}
-
-
 	.text-wrapper {
 		display: flex;
 		flex-direction: column;
@@ -74,16 +65,11 @@
 
 .activity-card--inverse {
 	@extend .activity-card;
-	background-color: $c-secondary;
 
 	@include media (lg) {
 		width: 65%;
 		height: 640px;
 		float: left;
-	}
-
-	&:nth-of-type(2) .img-wrapper {
-		background-image: url('../img/A3.jpg');
 	}
 
 	.img-wrapper {
@@ -101,27 +87,14 @@
 			text-align: left;
 
 		}
-
-		.activity-card__header {
-			color: $c-white;
-	  }
-
-		.activity-card__description {
-			color: $c-white;
-		}
 	}
 
 	&--small {
-		@extend .activity-card;
-		background-color: $c-white;
+		@extend .activity-card--inverse;
 
 		@include media (lg) {
 			width: 35%;
 			height: 640px;
-		}
-
-		&:nth-of-type(1) .img-wrapper {
-			background-image: url('../img/A3MINI.jpg');
 		}
 
 		.img-wrapper {

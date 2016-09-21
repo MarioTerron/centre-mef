@@ -11,13 +11,43 @@
 .pink-section {
 	background-color: $c-primary;
 
-	@include media (md) {
-		padding-bottom: 6.25em;
-	}
-
 	.row {
 		@include media(lg) {
 			display: flex;
 		}
 	}
+}
+
+.green {
+		background-color: $c-secondary;
+
+		.activity-card__header,
+		.activity-card__subheader,
+		.activity-card__description {
+			color: $c-white;
+		}
+	}
+
+.img-1 {
+	background-image: url('../img/A1.jpg');
+}
+
+.img-2 {
+	background-image: url('../img/A2.jpg');
+}
+
+.img-3 {
+	background-image: url('../img/A3.jpg');
+}
+
+.img-4 {
+	background-image: url('../img/A4.jpg');
+}
+
+.img-5 {
+	background-image: url('../img/A5.jpg');
+}
+
+.img-6 {
+	background-image: url('../img/A6.jpg');
 }
