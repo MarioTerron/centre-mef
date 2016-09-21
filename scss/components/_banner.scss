@@ -1,10 +1,10 @@
 .banner {
+	position: relative;
 	height: 100%;
 	min-height: 500px;
 	max-height: 900px;
 	background: linear-gradient($c-shadow, $c-shadow), url('../img/banner.jpg') no-repeat center center;
 	background-size: cover;
-	position: relative;
 
 	.container {
 		position: absolute;
