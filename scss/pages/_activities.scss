@@ -1,0 +1,23 @@
+@import 'components/activity-card';
+
+.green-section {
+	background-color: $c-secondary;
+
+	@include media (md) {
+		padding-top: 6.25em;
+	}
+}
+
+.pink-section {
+	background-color: $c-primary;
+
+	@include media (md) {
+		padding-bottom: 6.25em;
+	}
+
+	.row {
+		@include media(lg) {
+			display: flex;
+		}
+	}
+}

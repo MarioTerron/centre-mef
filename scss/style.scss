@@ -2,7 +2,7 @@
 @import 'utils/breakpoints';
 @import 'base/reset';
 @import 'base/base';
-@import 'base/grid';
+
 
 
 /*------------------------------------
@@ -13,26 +13,12 @@
 // Header
 // -----------------------------------------------------------------------------
 
-@import 'components/header';
-
-
-// Menu
-// -----------------------------------------------------------------------------
-
-@import 'components/menu';
-
-
+@import 'pages/header';
 
 // Activities
 // -----------------------------------------------------------------------------
 
-@import 'components/activities';
-
-
-// Features
-// -----------------------------------------------------------------------------
-
-@import 'components/features';
+@import 'pages/activities';
 
 
 // Banner

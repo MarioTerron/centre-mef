@@ -4,32 +4,25 @@
 	max-height: 900px;
 	background: linear-gradient($c-shadow, $c-shadow), url('../img/banner.jpg') no-repeat center center;
 	background-size: cover;
+	position: relative;
 
 	.container {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
 	}
 
 	&__title {
 		margin-bottom: 0;
 		color: $c-white;
 		text-shadow: 0 2px 3px $c-shadow;
-		text-transform: uppercase;
-		z-index: 1;
-
   }
 
 	&__subtitle {
 		margin-bottom: 0;
 		color: $c-white;
 		text-shadow: 0 2px 3px $c-shadow;
-		z-index: 1;
   }
 }

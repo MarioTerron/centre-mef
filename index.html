@@ -16,12 +16,13 @@
 	<!-- Custom CSS  -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/remodal.css">
+	<link rel="stylesheet" href="css/remodal-default-theme.css">
 </head>
 
 <body>
 
 	<section class="header">
-
 		<span id="menu__trigger" class="menu__trigger">
 			<span class="fa fa-bars"></span>
 		</span>
@@ -45,6 +46,8 @@
 			<h1 class="subtitle">Centre</h1>
 			<h1 class="title">Mef</h1>
 		</div>
+
+		<div class="filter"></div>
 		<video autoplay loop>
 			<source class="video" src="video/mef.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
 		</video>
@@ -52,67 +55,60 @@
 	</section>
 	<!-- /.header -->
 
-	<section class="activities">
+	<section class="green-section">
 		<div class="container">
+			<div class="row">
 
-			<div class="activity-card">
-				<div class="img-wrapper"></div>
-				<div class="text-wrapper">
-					<h5 class="activity-card__subheader">It's all about</h5>
-					<h3 class="activity-card__header">Fitness First</h3>
-					<p class="activity-card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe libero soluta pariatur voluptatum, minus sit assumenda illum eaque iste omnis fugit labore quia veniam exercitationem eligendi architecto, repellat nisi quod in voluptates cum, nihil
-						esse harum ea similique. Quasi, blanditiis rem inventore veniam ipsam libero.</p>
+				<div class="activity-card">
+					<div class="img-wrapper"></div>
+					<div class="text-wrapper">
+						<h5 class="activity-card__subheader">It's all about</h5>
+						<h3 class="activity-card__header">Fitness First</h3>
+						<p class="activity-card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe libero soluta pariatur voluptatum.</p>
+					</div>
 				</div>
-			</div>
 
-			<div class="activity-card">
-				<div class="img-wrapper"></div>
-				<div class="text-wrapper">
-					<h5 class="activity-card__subheader">Love</h5>
-					<h3 class="activity-card__header">your body</h3>
-					<p class="activity-card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe libero soluta pariatur voluptatum, minus sit assumenda illum eaque iste omnis fugit labore quia veniam exercitationem eligendi architecto, repellat nisi quod in voluptates cum, nihil
-						esse harum ea similique. Quasi, blanditiis rem inventore veniam ipsam libero.</p>
+				<div class="activity-card--right">
+					<div class="img-wrapper"></div>
+					<div class="text-wrapper">
+						<h5 class="activity-card__subheader">Love</h5>
+						<h3 class="activity-card__header">your body</h3>
+						<p class="activity-card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe libero soluta pariatur voluptatum.</p>
+					</div>
 				</div>
-			</div>
 
+			</div>
 		</div>
 	</section>
 
-	<section class="features">
+	<section class="pink-section">
 		<div class="container">
+			<div class="row">
 
-			<div class="feature-card--small">
-				<div class="img-wrapper">
-					<img class="feature-card__img" src="img/A3MINI.jpg" alt="">
-				</div>
-				<div class="content">
-					<div class="container">
-						<h5 class="feature-card__subheader">Track your</h5>
-						<h3 class="feature-card__header">lifestyle</h3>
-						<p class="feature-card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe libero soluta pariatur voluptatum, minus sit assumenda illum eaque iste omnis fugit labore.</p>
+				<div class="activity-card--inverse--small">
+					<div class="img-wrapper"></div>
+					<div class="text-wrapper">
+						<h5 class="activity-card__subheader">Track your</h5>
+						<h3 class="activity-card__header">lifestyle</h3>
+						<p class="activity-card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe libero soluta pariatur voluptatum.</p>
 					</div>
 				</div>
-			</div>
 
-			<div class="feature-card">
-				<div class="img-wrapper">
-					<img class="feature-card__img" src="img/A3.jpg" alt="">
-				</div>
-				<div class="content--green">
-					<div class="container">
-						<h3 class="feature-card__header">Summer of fun</h3>
-						<p class="feature-card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe libero soluta pariatur voluptatum, minus sit assumenda illum eaque iste omnis fugit labore quia veniam exercitationem eligendi architecto, repellat nisi quod in voluptates cum, nihil
-							esse harum ea similique. Quasi, blanditiis rem inventore veniam ipsam libero.</p>
+				<div class="activity-card--inverse">
+					<div class="img-wrapper"></div>
+					<div class="text-wrapper">
+						<h3 class="activity-card__header">Summer of fun</h3>
+						<p class="activity-card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis iste assumenda esse, velit quam praesentium animi explicabo aut, excepturi error deserunt, quidem mollitia, exercitationem ipsa.</p>
 					</div>
 				</div>
-			</div>
 
+			</div>
 		</div>
 	</section>
 
 	<section class="banner">
 		<div class="container">
-			<div class="content">
+			<div class="text-wrapper">
 				<h3 class="banner__title">We launch leaders with big ideas</h3>
 				<p class="banner__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum consequuntur, labore aut blanditiis. Velit, fuga?</p>
 			</div>
@@ -143,6 +139,7 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="js/menu.js"></script>
+	<script src="js/remodal.min.js"></script>
 
 </body>
 
