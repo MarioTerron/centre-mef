@@ -453,9 +453,9 @@ video {
         padding: 0;
         float: left; } }
   .activity-card:nth-of-type(1) .img-wrapper, .activity-card--right:nth-of-type(1) .img-wrapper, .activity-card--inverse:nth-of-type(1) .img-wrapper, .activity-card--inverse--small:nth-of-type(1) .img-wrapper {
-    background-image: url("../../img/A1.jpg"); }
+    background-image: url("../img/A1.jpg"); }
   .activity-card:nth-of-type(2) .img-wrapper, .activity-card--right:nth-of-type(2) .img-wrapper, .activity-card--inverse:nth-of-type(2) .img-wrapper, .activity-card--inverse--small:nth-of-type(2) .img-wrapper {
-    background-image: url("../../img/A2.jpg"); }
+    background-image: url("../img/A2.jpg"); }
   .activity-card .text-wrapper, .activity-card--right .text-wrapper, .activity-card--inverse .text-wrapper, .activity-card--inverse--small .text-wrapper {
     display: flex;
     flex-direction: column;
@@ -490,7 +490,7 @@ video {
       height: 640px;
       float: left; } }
   .activity-card--inverse:nth-of-type(2) .img-wrapper {
-    background-image: url("../../img/A3.jpg"); }
+    background-image: url("../img/A3.jpg"); }
   @media (min-width: 62em) {
     .activity-card--inverse .img-wrapper {
       width: 100%;
@@ -512,7 +512,7 @@ video {
         width: 35%;
         height: 640px; } }
     .activity-card--inverse--small:nth-of-type(1) .img-wrapper {
-      background-image: url("../../img/A3MINI.jpg"); }
+      background-image: url("../img/A3MINI.jpg"); }
     @media (min-width: 62em) {
       .activity-card--inverse--small .img-wrapper {
         width: 100%;
