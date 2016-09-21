@@ -11,6 +11,10 @@
 .pink-section {
 	background-color: $c-primary;
 
+	@include media (md) {
+		padding-bottom: 6.25em;
+	}
+
 	.row {
 		@include media(lg) {
 			display: flex;

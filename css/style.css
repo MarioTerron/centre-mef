@@ -516,6 +516,9 @@ video {
 
 .pink-section {
   background-color: #E91E63; }
+  @media (min-width: 48em) {
+    .pink-section {
+      padding-bottom: 6.25em; } }
   @media (min-width: 62em) {
     .pink-section .row {
       display: flex; } }
