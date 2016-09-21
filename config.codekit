@@ -212,23 +212,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/min\/menu-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/min\/menu-min.js",
-		"outputAbbreviatedPath": "\/js\/min\/min\/menu-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/remodal.js": {
+	"\/js\/remodal.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/remodal.js",
-		"outputAbbreviatedPath": "\/js\/min\/remodal-min.js",
+		"inputAbbreviatedPath": "\/js\/remodal.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/remodal.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
