@@ -28,7 +28,7 @@
 		justify-content: center;
 
 		height: 50%;
-		padding: 50px;
+		padding: 2em;
 		text-align: center;
 
 		@include media(lg) {
@@ -36,7 +36,7 @@
 		}
 	}
 
-	&__header {
+	&__title {
 		color: $c-secondary;
 		font-size: 1.8rem;
 		text-transform: uppercase;
@@ -46,7 +46,7 @@
 		}
   }
 
-	&__subheader {
+	&__subtitle {
 		margin: 0;
 		font-size: .8rem;
 		text-transform: uppercase;

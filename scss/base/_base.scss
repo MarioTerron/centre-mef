@@ -37,6 +37,10 @@ body {
   padding-right: 15px;
   padding-left: 15px;
 
+	@include media (sm) {
+		max-width: 576px;
+	}
+
   @include media (md) {
     max-width: 728px;
   }
@@ -53,6 +57,12 @@ body {
 .row {
 	margin-right: -15px;
 	margin-left: -15px;
+
+	&::after{
+		content: '';
+		clear: both;
+		display: table;
+	}
 }
 // Base Elements
 // -----------------------------------------------------------------------------
@@ -117,6 +127,7 @@ i {
 
 p {
 	margin-bottom: 1rem;
+	line-height: 1.8rem;
 }
 
 img,
