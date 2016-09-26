@@ -23,24 +23,21 @@
 <body>
 
 	<section class="header">
-		<span id="menu__trigger" class="menu__trigger">
+		<div id="nav-open" class="nav-open">
 			<span class="fa fa-navicon"></span>
-		</span>
-		<menu class="menu">
-			<div class="menu__title">
-				<span id="menu__close" class="menu__close">
-					<span class="fa fa-times"></span>
-				</span>
+		</div>
+		<menu class="nav">
+			<div id="nav-close" class="nav-close">
+				<span class="fa fa-times"></span>
 			</div>
-			<div class="menu__items">
-				<ul class="nav">
-					<li class="nav__item"><a class="nav__link" href="#">Home</a></li>
-					<li class="nav__item"><a class="nav__link" href="#about">About</a></li>
-					<li class="nav__item"><a class="nav__link" href="#team">Activities</a></li>
-					<li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
-				</ul>
-			</div>
-		</menu> <!-- /.menu -->
+			<ul class="nav__list">
+				<li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+				<li class="nav__item"><a class="nav__link" href="#about">About</a></li>
+				<li class="nav__item"><a class="nav__link" href="#team">Activities</a></li>
+				<li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
+			</ul>
+		</menu>
+		<!-- /.menu -->
 
 		<div class="title-container">
 			<h1 class="subtitle">Centre</h1>
@@ -89,7 +86,6 @@
 	<section class="main-grid">
 		<div class="green-section">
 			<div class="container">
-
 				<div class="row">
 					<div class="activity-card">
 						<div class="img-wrapper img-1"></div>
@@ -99,15 +95,15 @@
 							<p class="activity-card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
 							<a href="#" data-remodal-target="modal-1">Read More</a>
 							<div class="remodal" data-remodal-id="modal-1">
-							  <button data-remodal-action="close" class="remodal-close"></button>
-							  <h2>Fitness First</h2>
-							  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel id velit ea quas voluptates temporibus nesciunt natus accusamus, laboriosam cum ex harum facilis a quibusdam. At consectetur pariatur iure animi voluptate esse magnam vitae quos, eveniet suscipit incidunt ut officia aperiam atque, eligendi explicabo natus obcaecati voluptatibus facere deserunt sunt voluptates. Corporis aliquid praesentium voluptatibus totam dolore esse, assumenda itaque aperiam, distinctio, voluptates illo iusto.</p>
-							  <!-- <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+								<button data-remodal-action="close" class="remodal-close"></button>
+								<h2>Fitness First</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel id velit ea quas voluptates temporibus nesciunt natus accusamus, laboriosam cum ex harum facilis a quibusdam. At consectetur pariatur iure animi voluptate esse magnam vitae quos, eveniet
+									suscipit incidunt ut officia aperiam atque, eligendi explicabo natus obcaecati voluptatibus facere deserunt sunt voluptates. Corporis aliquid praesentium voluptatibus totam dolore esse, assumenda itaque aperiam, distinctio, voluptates illo iusto.</p>
+								<!-- <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
 							  <button data-remodal-action="confirm" class="remodal-confirm">OK</button> -->
 							</div>
 						</div>
 					</div>
-
 					<div class="activity-card--left">
 						<div class="img-wrapper img-2"></div>
 						<div class="text-wrapper">
@@ -116,22 +112,20 @@
 							<p class="activity-card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
 							<a href="#" data-remodal-target="modal-2">Read More</a>
 							<div class="remodal" data-remodal-id="modal-2">
-							  <button data-remodal-action="close" class="remodal-close"></button>
-							  <h1>Your Body</h1>
-							  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel id velit ea quas voluptates temporibus nesciunt natus accusamus, laboriosam cum ex harum facilis a quibusdam. At consectetur pariatur iure animi voluptate esse magnam vitae quos, eveniet suscipit incidunt ut officia aperiam atque, eligendi explicabo natus obcaecati voluptatibus facere deserunt sunt voluptates. Corporis aliquid praesentium voluptatibus totam dolore esse, assumenda itaque aperiam, distinctio, voluptates illo iusto.</p>
-							  <!-- <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+								<button data-remodal-action="close" class="remodal-close"></button>
+								<h1>Your Body</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel id velit ea quas voluptates temporibus nesciunt natus accusamus, laboriosam cum ex harum facilis a quibusdam. At consectetur pariatur iure animi voluptate esse magnam vitae quos, eveniet
+									suscipit incidunt ut officia aperiam atque, eligendi explicabo natus obcaecati voluptatibus facere deserunt sunt voluptates. Corporis aliquid praesentium voluptatibus totam dolore esse, assumenda itaque aperiam, distinctio, voluptates illo iusto.</p>
+								<!-- <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
 							  <button data-remodal-action="confirm" class="remodal-confirm">OK</button> -->
 							</div>
 						</div>
 					</div>
 				</div>
-
 			</div>
 		</div>
-
 		<div class="pink-section">
 			<div class="container">
-
 				<div class="row">
 					<div class="activity-card--inverse--small">
 						<div class="img-wrapper img-3"></div>
@@ -141,27 +135,26 @@
 							<p class="activity-card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
 						</div>
 					</div>
-
-					<div class="activity-card--inverse green">
+					<div class="activity-card--inverse green-card">
 						<div class="img-wrapper img-4"></div>
 						<div class="text-wrapper">
 							<h3 class="activity-card__title">Summer of fun</h3>
-							<p class="activity-card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillumdolore eu fugiat nulla pariatur.</p>
+							<p class="activity-card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+								esse cillumdolore eu fugiat nulla pariatur.</p>
 						</div>
 					</div>
 				</div>
-
 				<div class="row">
 					<div class="activity-card--inverse">
 						<div class="img-wrapper img-5"></div>
 						<div class="text-wrapper">
 							<h5 class="activity-card__subtitle">With our help</h5>
 							<h3 class="activity-card__title">Get involved in yourself</h3>
-							<p class="activity-card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillumdolore eu fugiat nulla pariatur.</p>
+							<p class="activity-card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+								esse cillumdolore eu fugiat nulla pariatur.</p>
 						</div>
 					</div>
-
-					<div class="activity-card--inverse--small green">
+					<div class="activity-card--inverse--small green-card">
 						<div class="img-wrapper img-6"></div>
 						<div class="text-wrapper">
 							<h5 class="activity-card__subtitle">Improve your</h5>
@@ -170,7 +163,6 @@
 						</div>
 					</div>
 				</div>
-
 			</div>
 		</div>
 	</section>

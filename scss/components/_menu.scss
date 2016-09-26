@@ -1,42 +1,7 @@
 // Menu
 // -----------------------------------------------------------------------------
 
-
-.menu {
-	position: fixed;
-	top: 0;
-	right: -320px;
-	bottom: 0;
-	width: 320px;
-	margin: 0;
-	padding: 0;
-	transition: all .5s ease-in-out;
-	background-color: $c-white;
-	z-index: 1;
-
-	&__header {
-		position: relative;
-		height: 40px;
-		margin: 0 auto;
-		padding: 10px;
-		font-size: 32px;
-		line-height: 40px;
-		overflow: hidden;
-	}
-
-	&__items {
-		position: relative;
-		width: 258px;
-		height: 100%;
-		margin: 0 auto;
-		transform: matrix(.8, 0, 0, .9, 40, 0);
-		transform-origin: 0% 50% 0;
-		transition: all .5s ease-in-out;
-		overflow: hidden;
-	}
-}
-
-.menu__trigger {
+.nav-open {
 	display: block;
 	position: fixed;
 	top: 0;
@@ -54,17 +19,14 @@
 	z-index: 10;
 }
 
-.menu__close {
+.nav-close {
 	display: block;
-	position: absolute;
-	top: 0;
-	right: 7%;
-	width: 40px;
-	height: 40px;
+	width: 258px;
+	margin: 0 auto;
 	color: $c-gray-darkest;
 	font-size: 30px;
 	line-height: 40px;
-	text-align: center;
+	text-align: right;
 	cursor: pointer;
 
 	&:hover {
@@ -73,9 +35,29 @@
 }
 
 .nav {
-	margin-top: .625em;
-	border-top: .2em solid $c-gray;
-	border-bottom: .2em solid $c-gray;
+	position: fixed;
+	top: 0;
+	right: -320px;
+	bottom: 0;
+	width: 320px;
+	margin: 0;
+	padding: 0;
+	transition: all .5s ease-in-out;
+	background-color: $c-white;
+	z-index: 1;
+
+	&__list {
+		position: relative;
+		width: 258px;
+		margin: 0 auto;
+		margin-top: .625em;
+		transform: matrix(.8, 0, 0, .9, 40, 0);
+		transform-origin: 0% 50% 0;
+		transition: all .5s ease-in-out;
+		border-top: .2em solid $c-gray;
+		border-bottom: .2em solid $c-gray;
+		overflow: hidden;
+	}
 
 	&__item {
 		height: 2.5em;
@@ -137,7 +119,7 @@ html.active #overlay {
 html.active menu {
 	z-index: 99;
 
-	.menu__items {
+	.nav__list {
 		transform: matrix(1, 0, 0, 1, 0, 0);
 		transform-origin: 0% 50% 0;
 		transition: all .5s ease-in-out;

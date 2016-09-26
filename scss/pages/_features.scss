@@ -4,9 +4,9 @@
 }
 
 .feature-card {
+	margin-bottom: 3.125em;
 	padding-right: 15px;
 	padding-left: 15px;
-	margin-bottom: 3.125em;
 
 	@include media(md) {
 		width: 50%;
