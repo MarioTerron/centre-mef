@@ -9,11 +9,13 @@
 
 .header {
 	position: relative;
-	width: 100%;
-	min-height: 640px;
-	max-height: 960px;
+	height: 640px;
 	background: url('../img/header.png') no-repeat center center;
 	background-size: cover;
+
+	@include media (md) {
+		height: 960px;
+	}
 
 	.title-container {
 		position: absolute;
@@ -51,6 +53,20 @@
 		font-size: 6.5rem;
 		line-height: 120px;
 	}
+
+	&__small {
+		margin-bottom: 0;
+		color: $c-white;
+		font-size: 2.25rem;
+		font-weight: $fw-light;
+		text-align: center;
+		text-shadow: 0 2px 3px $c-shadow;
+		text-transform: uppercase;
+
+		@include media (md) {
+			font-size: 3.75rem;
+		}
+	}
 }
 
 .subtitle {
@@ -67,6 +83,13 @@
 	}
 }
 
+.header-opener {
+	height: 180px;
+
+	@include media (md) {
+		height: 420px;
+	}
+}
 
 // Video
 // -----------------------------------------------------------------------------

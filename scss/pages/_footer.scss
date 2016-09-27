@@ -2,8 +2,8 @@
 // ----------------------------------------------
 
 .footer {
-	background-color: $c-footer-bg;
 	padding: 3.125em 0;
+	background-color: $c-footer-bg;
 	text-align: center;
 
 	p {
@@ -13,9 +13,9 @@
 	}
 
 	a {
-		text-decoration: none;
 		color: $c-footer-text;
 		font-weight: 600;
+		text-decoration: none;
 
 		&:hover {
 			color: $c-gray-darker;
@@ -29,6 +29,7 @@
 
 .social-icons {
 	margin-bottom: 1em;
+	padding: 0;
 
 	li {
 		display: inline-block;
@@ -56,13 +57,13 @@
 
 		a {
 			display: block;
-			border-radius: 50%;
-			background-color: $c-footer-icons-bg;
 			width: 2.375em;
 			height: 2.375em;
-			text-align: center;
-			line-height: 2.375em;
+			border-radius: 50%;
+			background-color: $c-footer-icons-bg;
 			color: $c-footer-icons;
+			line-height: 2.375em;
+			text-align: center;
 
 			&:hover {
 				color: $c-footer-icons;

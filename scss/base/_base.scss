@@ -41,22 +41,20 @@ body {
 		max-width: 576px;
 	}
 
-  @include media (md) {
-    max-width: 728px;
-  }
+ 	@include media (md) {
+    	max-width: 728px;
+  	}
 
-  @include media (lg) {
-    max-width: 940px;
-  }
+  	@include media (lg) {
+    	max-width: 940px;
+  	}
 
-  @include media (xl) {
-    max-width: 1170px;
-  }
+  	@include media (xl) {
+    	max-width: 1170px;
+  	}
 }
 
 .row {
-	margin-right: -15px;
-	margin-left: -15px;
 
 	&::after{
 		content: '';
@@ -104,7 +102,7 @@ h6 {
 }
 
 small {
-	font-size: .85rem;
+	font-size: .875rem;
 }
 
 ul li {
@@ -183,4 +181,16 @@ h4 a,
 h5 a,
 h6 a {
 	color: $c-header;
+}
+
+
+// Form
+
+label {
+	font-size: .875rem;
+}
+
+input,
+textarea {
+	width: 100%;
 }
