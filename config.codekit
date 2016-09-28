@@ -126,6 +126,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/em.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8114,
+		"inputAbbreviatedPath": "\/img\/em.jpg",
+		"outputAbbreviatedPath": "\/img\/em.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/header.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -284,15 +295,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/components\/_menu.scss": {
+	"\/scss\/components\/_nav.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/components\/_menu.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_menu.css",
+		"inputAbbreviatedPath": "\/scss\/components\/_nav.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/_nav.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -300,23 +311,30 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/css\/contact.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/css\/contact.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/scss\/pages\/_activities.scss": {
+	"\/scss\/components\/_opener.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/pages\/_activities.scss",
+		"inputAbbreviatedPath": "\/scss\/components\/_opener.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/_opener.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/layout\/_activities.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/layout\/_activities.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_activities.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -325,14 +343,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/pages\/_banner.scss": {
+	"\/scss\/layout\/_banner.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/pages\/_banner.scss",
+		"inputAbbreviatedPath": "\/scss\/layout\/_banner.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_banner.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -341,14 +359,30 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/pages\/_features.scss": {
+	"\/scss\/layout\/_contact.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/pages\/_features.scss",
+		"inputAbbreviatedPath": "\/scss\/layout\/_contact.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/_contact.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/layout\/_features.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/layout\/_features.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_features.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -357,14 +391,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/pages\/_footer.scss": {
+	"\/scss\/layout\/_footer.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/pages\/_footer.scss",
+		"inputAbbreviatedPath": "\/scss\/layout\/_footer.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_footer.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -373,31 +407,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/pages\/_header.scss": {
+	"\/scss\/layout\/_header.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/pages\/_header.scss",
+		"inputAbbreviatedPath": "\/scss\/layout\/_header.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_header.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/scss\/pages\/contact.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/pages\/contact.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/contact.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

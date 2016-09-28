@@ -1,4 +1,4 @@
-// Menu
+// Navigation
 // -----------------------------------------------------------------------------
 
 .nav-open {
@@ -82,19 +82,21 @@
 	}
 }
 
-// menu effects
+// Effects
+// -----------------------------------------------------------------------------
 
-html.active,
-html.active body {
+
+.active,
+.active body {
 	overflow: hidden;
 }
 
-html.active section {
+.active section {
 	transform: matrix(1, 0, 0, 1, -320, 0);
 	transition: all .5s ease-in-out;
 }
 
-#overlay {
+.overlay {
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -110,13 +112,13 @@ html.active section {
 	z-index: 99;
 }
 
-html.active #overlay {
+.active .overlay {
 	transition: all .5s ease-in-out;
 	opacity: .75;
 	visibility: visible;
 }
 
-html.active menu {
+.active .nav {
 	z-index: 99;
 
 	.nav__list {
