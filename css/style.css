@@ -553,6 +553,8 @@ textarea {
   text-align: center;
   cursor: pointer;
   z-index: 10; }
+  .nav-open:hover {
+    background-color: #e6e6e6; }
 
 .nav-close {
   display: block;
@@ -576,12 +578,13 @@ textarea {
   padding: 0;
   transition: all .5s ease-in-out;
   background-color: #fff;
-  z-index: 1; }
+  z-index: 10; }
   .nav__list {
     position: relative;
     width: 258px;
     margin: 0 auto;
     margin-top: .625em;
+    padding: 0;
     transform: matrix(0.8, 0, 0, 0.9, 40, 0);
     transform-origin: 0% 50% 0;
     transition: all .5s ease-in-out;
@@ -649,7 +652,7 @@ textarea {
 .header {
   position: relative;
   width: 100%;
-  min-height: 500px;
+  min-height: 560px;
   max-height: 960px;
   background: url("../img/header.png") no-repeat center center;
   background-size: cover;

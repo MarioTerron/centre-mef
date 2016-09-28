@@ -17,6 +17,10 @@
 	text-align: center;
 	cursor: pointer;
 	z-index: 10;
+
+	&:hover {
+		background-color: $c-white-darker;
+	}
 }
 
 .nav-close {
@@ -44,13 +48,14 @@
 	padding: 0;
 	transition: all .5s ease-in-out;
 	background-color: $c-white;
-	z-index: 1;
+	z-index: 10;
 
 	&__list {
 		position: relative;
 		width: 258px;
 		margin: 0 auto;
 		margin-top: .625em;
+		padding: 0;
 		transform: matrix(.8, 0, 0, .9, 40, 0);
 		transform-origin: 0% 50% 0;
 		transition: all .5s ease-in-out;
