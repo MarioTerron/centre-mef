@@ -665,10 +665,10 @@ textarea {
     z-index: 0; }
     @media (min-width: 48em) {
       .header--sm {
-        height: 420px; } }
+        height: 320px; } }
 
 .title-container {
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
