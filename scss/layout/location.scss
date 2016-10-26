@@ -1,18 +1,27 @@
-.location {	
+
+.contact-list {
+	margin: 0;
+	padding: 0;
+}
+
+
+.location {
 	font-size: .875rem;
-	
+
 	.container {
 		padding: 3.125em 0;
+		text-align: center;
 
 		@include media (lg) {
 			display: flex;
 			align-items: center;
-			justify-content: space-between;
+			justify-content: space-around;
+
+			text-align: left;
 		};
 
 		img {
-			width: 720px;
-			height: 420px;
+			max-width: 720px;
 		}
 
 		h3 {

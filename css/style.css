@@ -408,9 +408,9 @@ body {
       max-width: 1170px; } }
 
 .row::after {
-  content: '';
+  display: table;
   clear: both;
-  display: table; }
+  content: ''; }
 
 h1,
 h2,
@@ -452,16 +452,16 @@ ol li {
 
 strong,
 b {
-  font-weight: bold;
-  color: #1f1f1f; }
+  color: #1f1f1f;
+  font-weight: bold; }
 
 em,
 i {
   font-style: italic; }
 
 p {
-  font-size: .875rem;
   margin-bottom: 1rem;
+  font-size: .875rem;
   line-height: 1.8rem; }
 
 img,
@@ -471,18 +471,19 @@ embed {
   height: auto; }
 
 blockquote {
-  margin: 0 0 1.250rem 1.250rem;
-  padding: .625rem 1.250rem 1.250rem;
+  margin: 0 0 1em;
+  padding: 2em;
   background: #930e3b;
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 2.3em;
   font-style: italic; }
   blockquote p:last-child {
     margin-bottom: 0; }
 
 a {
   color: #8BC34A;
-  cursor: pointer; }
+  cursor: pointer;
+  text-decoration: none; }
   a:hover {
     color: #bcdc97; }
   a:focus, a:active {
@@ -900,9 +901,6 @@ video {
     color: #fff;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4); }
 
-.contact-list {
-  padding: 0; }
-
 footer {
   padding: 1.125em 0;
   background-color: #1f1f1f;
@@ -999,18 +997,23 @@ footer {
     transform: translateY(-50%);
     text-align: center; }
 
+.contact-list {
+  margin: 0;
+  padding: 0; }
+
 .location {
   font-size: .875rem; }
   .location .container {
-    padding: 3.125em 0; }
+    padding: 3.125em 0;
+    text-align: center; }
     @media (min-width: 62em) {
       .location .container {
         display: flex;
         align-items: center;
-        justify-content: space-between; } }
+        justify-content: space-around;
+        text-align: left; } }
     .location .container img {
-      width: 720px;
-      height: 420px; }
+      max-width: 720px; }
     .location .container h3 {
       padding-top: .75em;
       font-size: 1.4em;
@@ -1019,3 +1022,28 @@ footer {
       color: #929292; }
       .location .container a:hover {
         color: #E91E63; }
+
+.charities {
+  font-size: .875rem;
+  color: #1f1f1f; }
+  .charities .container {
+    padding: 3.125em 0;
+    text-align: center; }
+    @media (min-width: 62em) {
+      .charities .container {
+        display: flex;
+        justify-content: space-around;
+        text-align: left; } }
+  .charities .row {
+    padding: 0 2em; }
+    .charities .row .charities-subtitle {
+      margin: 0 0 2em;
+      font-size: 1.3rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      opacity: .5; }
+  .charities img {
+    display: block;
+    max-width: 300px;
+    margin: 0 auto; }
