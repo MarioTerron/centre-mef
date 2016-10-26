@@ -419,7 +419,7 @@ h4,
 h5,
 h6 {
   margin: 0 0 1rem;
-  color: #E91E63;
+  color: #e91e63;
   font-family: "Montserrat", sans-serif;
   font-weight: 400; }
 
@@ -461,9 +461,9 @@ i {
 
 p {
   margin-bottom: 1rem;
+  color: #1f1f1f;
   font-size: .875rem;
-  line-height: 1.8rem;
-  color: #1f1f1f; }
+  line-height: 1.8rem; }
 
 img,
 object,
@@ -482,9 +482,9 @@ blockquote {
     margin-bottom: 0; }
 
 a {
-  color: #8BC34A;
-  cursor: pointer;
-  text-decoration: none; }
+  color: #8bc34a;
+  text-decoration: none;
+  cursor: pointer; }
   a:hover {
     color: #bcdc97; }
   a:focus, a:active {
@@ -496,7 +496,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-  color: #E91E63; }
+  color: #e91e63; }
 
 label {
   font-size: .875rem; }
@@ -607,7 +607,7 @@ textarea {
     color: #5f5f5f;
     text-decoration: none; }
     .nav__link:hover {
-      color: #8BC34A; }
+      color: #8bc34a; }
 
 .active,
 .active body {
@@ -687,7 +687,7 @@ textarea {
   font-weight: 900;
   letter-spacing: .2rem;
   text-align: center;
-  text-shadow: 0.5px 0.5px #8BC34A, 1px 1px #8BC34A, 1.5px 1.5px #8BC34A, 2px 2px #8BC34A, 2.5px 2.5px #8BC34A, 3px 3px #8BC34A, 3.5px 3.5px #8BC34A, 4px 4px #8BC34A, 4.5px 4.5px #8BC34A, 5px 5px #8BC34A, 5.5px 5.5px #8BC34A, 6px 6px #8BC34A, 6.5px 6.5px #8BC34A, 7px 7px #8BC34A;
+  text-shadow: 0.5px 0.5px #8bc34a, 1px 1px #8bc34a, 1.5px 1.5px #8bc34a, 2px 2px #8bc34a, 2.5px 2.5px #8bc34a, 3px 3px #8bc34a, 3.5px 3.5px #8bc34a, 4px 4px #8bc34a, 4.5px 4.5px #8bc34a, 5px 5px #8bc34a, 5.5px 5.5px #8bc34a, 6px 6px #8bc34a, 6.5px 6.5px #8bc34a, 7px 7px #8bc34a;
   text-transform: uppercase; }
   @media (min-width: 48em) {
     .title {
@@ -707,7 +707,7 @@ textarea {
 
 .subtitle {
   margin-bottom: 0;
-  color: #8BC34A;
+  color: #8bc34a;
   font-size: 1.75rem;
   font-weight: 100;
   text-align: center;
@@ -728,7 +728,7 @@ video {
 
 .features {
   padding: 6.25em 0;
-  background-color: #8BC34A; }
+  background-color: #8bc34a; }
 
 .feature-card {
   margin-bottom: 3.125em;
@@ -786,7 +786,7 @@ video {
       .activity-card .text-wrapper, .activity-card--left .text-wrapper, .activity-card--inverse .text-wrapper, .activity-card--inverse--small .text-wrapper {
         height: 100%; } }
   .activity-card__title {
-    color: #8BC34A;
+    color: #8bc34a;
     font-size: 1.8rem;
     text-transform: uppercase; }
     @media (min-width: 48em) {
@@ -832,16 +832,16 @@ video {
     text-align: left; } }
 
 .green-section {
-  background-color: #8BC34A; }
+  background-color: #8bc34a; }
 
 .pink-section {
-  background-color: #E91E63; }
+  background-color: #e91e63; }
   @media (min-width: 62em) {
     .pink-section .row {
       display: flex; } }
 
 .green-card {
-  background-color: #8BC34A; }
+  background-color: #8bc34a; }
   .green-card .activity-card__title,
   .green-card .activity-card__subtitle,
   .green-card .activity-card__description {
@@ -870,7 +870,7 @@ video {
 .remodal h3,
 .remodal h4,
 .remodal h5 {
-  color: #8BC34A;
+  color: #8bc34a;
   text-transform: uppercase; }
 .remodal p {
   font-size: .875rem; }
@@ -933,7 +933,7 @@ footer {
     .social-icons li:nth-of-type(3) a:hover {
       background-color: #cd201f; }
     .social-icons li:nth-of-type(4) a:hover {
-      background-color: #675144; }
+      background-color: #833ab4; }
     .social-icons li a {
       display: block;
       width: 2.375em;
@@ -976,7 +976,7 @@ footer {
     transition: .2s ease;
     border: 1px solid transparent;
     border-radius: .2em;
-    background-color: #E91E63;
+    background-color: #e91e63;
     color: #fff;
     font-size: .875em;
     font-weight: 600;
@@ -1022,7 +1022,7 @@ footer {
     .location .container a {
       color: #929292; }
       .location .container a:hover {
-        color: #E91E63; }
+        color: #e91e63; }
 
 .charities {
   font-size: .875rem;

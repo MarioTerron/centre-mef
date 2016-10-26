@@ -14,8 +14,8 @@
 
 html,
 body {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 html {
@@ -32,25 +32,25 @@ body {
 }
 
 .container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
 
 	@include media (sm) {
 		max-width: 576px;
 	}
 
- 	@include media (md) {
-    	max-width: 728px;
+	@include media (md) {
+		max-width: 728px;
   	}
 
-  	@include media (lg) {
-    	max-width: 940px;
+	@include media (lg) {
+		max-width: 940px;
   	}
 
-  	@include media (xl) {
-    	max-width: 1170px;
+	@include media (xl) {
+		max-width: 1170px;
   	}
 }
 
@@ -126,9 +126,9 @@ i {
 
 p {
 	margin-bottom: 1rem;
+	color: $c-black;
 	font-size: .875rem;
 	line-height: 1.8rem;
-	color: $c-black;
 }
 
 img,
@@ -157,14 +157,14 @@ blockquote {
 // Links
 
 a {
-	color: $c-link;
-	cursor: pointer;
+	color: $c-secondary;
 	text-decoration: none;
+	cursor: pointer;
 
 	&:visited {	}
 
 	&:hover {
-		color: $c-link-hover;
+		color: $c-secondary-lighten;
 	}
 
 	&:active { }
@@ -183,7 +183,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-	color: $c-header;
+	color: $c-primary;
 }
 
 

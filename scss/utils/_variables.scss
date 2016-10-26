@@ -14,24 +14,19 @@ $c-gray-darker:		   		lighten($c-black, 25%);
 $c-gray-darkest:     		lighten($c-black, 15%);
 $c-shadow:					rgba(0, 0, 0, .4);
 
-$c-primary:					#E91E63;
+$c-primary:					#e91e63;
 $c-primary-darken:			darken($c-primary, 20%);
 $c-primary-lighten:			lighten($c-primary, 20%);
-$c-secondary: 	      		#8BC34A;
+$c-secondary: 	      		#8bc34a;
 $c-secondary-darken:		darken($c-secondary, 20%);
 $c-secondary-lighten:		lighten($c-secondary, 20%);
 
 $c-facebook:         		#3b5998;
 $c-twitter:          		#55acee;
 $c-youtube:          		#cd201f;
-$c-instagram:				#675144;
+$c-instagram:				#833ab4;
 
-$c-header: 					$c-primary;
-$c-base:					$c-gray;
-$c-link:					$c-secondary;
-$c-link-hover:				$c-secondary-lighten;
-
-$c-red:						#D32F2F;
+$c-red:						#d32f2f;
 
 
 
