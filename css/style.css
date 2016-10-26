@@ -462,7 +462,8 @@ i {
 p {
   margin-bottom: 1rem;
   font-size: .875rem;
-  line-height: 1.8rem; }
+  line-height: 1.8rem;
+  color: #1f1f1f; }
 
 img,
 object,
