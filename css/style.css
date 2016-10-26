@@ -384,27 +384,27 @@ html {
 
 body {
   margin: 0;
-  color: #616161;
+  color: #5f5f5f;
   font-family: "Open Sans", sans-serif;
   font-size: inherit;
   line-height: 1.5; }
 
-.container {
+.container, .footer--wrapper {
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px; }
   @media (max-width: 34em) {
-    .container {
+    .container, .footer--wrapper {
       max-width: 576px; } }
   @media (min-width: 48em) {
-    .container {
+    .container, .footer--wrapper {
       max-width: 728px; } }
   @media (min-width: 62em) {
-    .container {
+    .container, .footer--wrapper {
       max-width: 940px; } }
   @media (min-width: 76em) {
-    .container {
+    .container, .footer--wrapper {
       max-width: 1170px; } }
 
 .row::after {
@@ -547,7 +547,7 @@ textarea {
   margin: 10px 20px;
   border-radius: 50%;
   background-color: #fff;
-  color: #474747;
+  color: #454545;
   font-size: 1.25em;
   line-height: 44px;
   text-align: center;
@@ -560,7 +560,7 @@ textarea {
   display: block;
   width: 258px;
   margin: 0 auto;
-  color: #474747;
+  color: #454545;
   font-size: 30px;
   line-height: 40px;
   text-align: right;
@@ -588,8 +588,8 @@ textarea {
     transform: matrix(0.8, 0, 0, 0.9, 40, 0);
     transform-origin: 0% 50% 0;
     transition: all .5s ease-in-out;
-    border-top: 0.2em solid #949494;
-    border-bottom: 0.2em solid #949494;
+    border-top: 0.2em solid #929292;
+    border-bottom: 0.2em solid #929292;
     overflow: hidden; }
   .nav__item {
     height: 2.5em;
@@ -601,7 +601,7 @@ textarea {
     .nav__item:nth-child(4) {
       border-bottom: 0; }
   .nav__link {
-    color: #616161;
+    color: #5f5f5f;
     text-decoration: none; }
     .nav__link:hover {
       color: #E91E63; }
@@ -623,7 +623,7 @@ textarea {
   width: 100%;
   height: 100%;
   transition: all .5s ease-in-out;
-  background: #212121;
+  background: #1f1f1f;
   opacity: 0;
   overflow: hidden;
   visibility: hidden;
@@ -634,9 +634,9 @@ textarea {
   opacity: .75;
   visibility: visible; }
 
-.active .nav {
+.active menu {
   z-index: 99; }
-  .active .nav .nav__list {
+  .active menu .nav__list {
     transform: matrix(1, 0, 0, 1, 0, 0);
     transform-origin: 0% 50% 0;
     transition: all .5s ease-in-out; }
@@ -878,8 +878,9 @@ video {
   min-height: 640px;
   max-height: 960px;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/banner.jpg") no-repeat center center;
-  background-size: cover; }
-  .banner .container {
+  background-size: cover;
+  z-index: -1; }
+  .banner .container, .banner .footer--wrapper {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -898,23 +899,44 @@ video {
     color: #fff;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4); }
 
-.footer {
-  padding: 3.125em 0;
-  background-color: #212121;
-  text-align: center; }
-  .footer p {
-    color: #949494;
-    font-size: .85rem;
-    font-weight: 400; }
-  .footer a {
-    color: #949494;
-    font-weight: 600;
-    text-decoration: none; }
-    .footer a:hover {
-      color: #616161; }
+.contact-list {
+  padding: 0; }
 
-.fa-heart {
-  color: #D32F2F; }
+.footer {
+  background: #1f1f1f;
+  text-align: center; }
+  .footer--wrapper {
+    padding: 2.125em 0; }
+    @media (min-width: 62em) {
+      .footer--wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; } }
+    .footer--wrapper img {
+      width: 720px;
+      height: 400px; }
+    .footer--wrapper h3 {
+      color: #fff;
+      text-transform: uppercase; }
+    .footer--wrapper a {
+      color: #929292; }
+      .footer--wrapper a:hover {
+        color: #E91E63; }
+  .footer--post {
+    padding-bottom: 1.125em;
+    background-color: #1f1f1f;
+    text-align: center; }
+    .footer--post p {
+      margin-bottom: 0;
+      color: #929292;
+      font-size: .85rem;
+      font-weight: 400; }
+    .footer--post a {
+      color: #929292;
+      font-weight: 600;
+      text-decoration: none; }
+      .footer--post a:hover {
+        color: #5f5f5f; }
 
 .social-icons {
   margin-bottom: 1em;
@@ -937,7 +959,7 @@ video {
       width: 2.375em;
       height: 2.375em;
       border-radius: 50%;
-      background-color: #474747;
+      background-color: #454545;
       color: #fff;
       line-height: 2.375em;
       text-align: center; }
@@ -946,7 +968,7 @@ video {
 
 .contact {
   padding: 3em 0; }
-  .contact .container {
+  .contact .container, .contact .footer--wrapper {
     max-width: 920px;
     text-align: center; }
   .contact .row {
@@ -990,7 +1012,7 @@ video {
   position: relative;
   height: 65vh;
   padding: 0; }
-  .contact--success .container {
+  .contact--success .container, .contact--success .footer--wrapper {
     position: relative;
     top: 50%;
     transform: translateY(-50%);

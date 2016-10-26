@@ -5,6 +5,7 @@
 	max-height: 960px;
 	background: linear-gradient($c-shadow, $c-shadow), url('../img/banner.jpg') no-repeat center center;
 	background-size: cover;
+	z-index: -1;
 
 	.container {
 		position: absolute;

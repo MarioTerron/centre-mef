@@ -1,31 +1,70 @@
-// Footer
-// ----------------------------------------------
+// -----------------------------------------------------------------------------
+//    $FOOTER
+// -----------------------------------------------------------------------------
+
+.contact-list {
+	padding: 0;
+}
 
 .footer {
-	padding: 3.125em 0;
-	background-color: $c-footer-bg;
+	background: $c-black;
 	text-align: center;
 
-	p {
-		color: $c-footer-text;
-		font-size: .85rem;
-		font-weight: 400;
+	&--wrapper {
+		@extend .container;
+		padding: 2.125em 0;
+
+		@include media (lg) {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		};
+
+		img {
+			width: 720px;
+			height: 400px;
+		}
+
+		h3 {
+			color: $c-white;
+			text-transform: uppercase;
+		}
+
+		a {
+			color: $c-gray;
+
+			&:hover {
+				color: $c-primary;
+			}
+		}
 	}
 
-	a {
-		color: $c-footer-text;
-		font-weight: 600;
-		text-decoration: none;
+	&--post {
+		padding-bottom: 1.125em;
+		background-color: $c-black;
+		text-align: center;
 
-		&:hover {
-			color: $c-gray-darker;
+		p {
+			margin-bottom: 0;
+			color: $c-gray;
+			font-size: .85rem;
+			font-weight: 400;
+		}
+
+		a {
+			color: $c-gray;
+			font-weight: 600;
+			text-decoration: none;
+
+			&:hover {
+				color: $c-gray-darker;
+			}
 		}
 	}
 }
 
-.fa-heart {
-	color: $c-footer-heart;
-}
+// Icons
+// -----------------------------------------------------------------------------
 
 .social-icons {
 	margin-bottom: 1em;
@@ -60,13 +99,13 @@
 			width: 2.375em;
 			height: 2.375em;
 			border-radius: 50%;
-			background-color: $c-footer-icons-bg;
-			color: $c-footer-icons;
+			background-color: $c-gray-darkest;
+			color: $c-white;
 			line-height: 2.375em;
 			text-align: center;
 
 			&:hover {
-				color: $c-footer-icons;
+				color: $c-white;
 			}
 		}
 	}
