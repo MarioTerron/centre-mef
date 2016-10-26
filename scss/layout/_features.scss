@@ -1,0 +1,41 @@
+.features {
+	padding: 6.25em 0;
+	background-color: $c-secondary;
+}
+
+.feature-card {
+	margin-bottom: 3.125em;
+	padding-right: 15px;
+	padding-left: 15px;
+
+	@include media(md) {
+		width: 50%;
+		float: left;
+	}
+
+	@include media(xl) {
+		width: 25%;
+		float: left;
+	}
+
+	&__title {
+		margin: 1rem 0;
+		color: $c-white;
+		font-size: 1.45rem;
+	}
+
+	&__link {
+		color: $c-white;
+	}
+
+	&__description {
+		margin-bottom: 2em;
+		color: $c-white;
+		line-height: 1.8rem;
+	}
+
+	&__icon {
+		color: $c-white;
+		font-size: 3rem;
+	}
+}

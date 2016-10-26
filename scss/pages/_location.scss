@@ -1,0 +1,41 @@
+
+.contact-list {
+	margin: 0;
+	padding: 0;
+}
+
+
+.location {
+	font-size: .875rem;
+
+	.container {
+		padding: 3.125em 0;
+		text-align: center;
+
+		@include media (lg) {
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+
+			text-align: left;
+		};
+
+		img {
+			max-width: 720px;
+		}
+
+		h3 {
+			padding-top: .75em;
+			font-size: 1.4em;
+			text-transform: uppercase;
+		}
+
+		a {
+			color: $c-gray;
+
+			&:hover {
+				color: $c-primary;
+			}
+		}
+	}
+}

@@ -1,0 +1,64 @@
+@import 'components/activity-card';
+
+.green-section {
+	background-color: $c-secondary;
+}
+
+.pink-section {
+	background-color: $c-primary;
+
+	.row {
+		@include media(lg) {
+			display: flex;
+		}
+	}
+}
+
+.green-card {
+	background-color: $c-secondary;
+
+	.activity-card__title,
+	.activity-card__subtitle,
+	.activity-card__description {
+	color: $c-white;
+	}
+}
+
+.img-1 {
+	background-image: url('../img/A1.jpg');
+}
+
+.img-2 {
+	background-image: url('../img/A2.jpg');
+}
+
+.img-3 {
+	background-image: url('../img/A3.jpg');
+}
+
+.img-4 {
+	background-image: url('../img/A4.jpg');
+}
+
+.img-5 {
+	background-image: url('../img/A5.jpg');
+}
+
+.img-6 {
+	background-image: url('../img/A6.jpg');
+}
+
+.remodal {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5 {
+		color: $c-secondary;
+		text-transform: uppercase;
+	}
+
+	p {
+		font-size: .875rem;
+	}
+}

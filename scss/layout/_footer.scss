@@ -1,0 +1,75 @@
+// -----------------------------------------------------------------------------
+//    $FOOTER
+// -----------------------------------------------------------------------------
+
+footer {
+	padding: 1.125em 0;
+	background-color: $c-black;
+	text-align: center;
+
+	p {
+		margin-bottom: 0;
+		color: $c-gray;
+		font-size: .85rem;
+		font-weight: 400;
+	}
+
+	a {
+		color: $c-gray;
+		font-weight: 600;
+		text-decoration: none;
+
+		&:hover {
+			color: $c-gray-darker;
+		}
+	}
+}
+
+
+// Icons
+// -----------------------------------------------------------------------------
+
+.social-icons {
+	margin-bottom: 1em;
+	padding: 0;
+
+	li {
+		display: inline-block;
+		margin-right: .25em;
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+		&:nth-of-type(1) a:hover {
+			background-color: $c-facebook;
+		}
+
+		&:nth-of-type(2) a:hover {
+			background-color: $c-twitter;
+		}
+
+		&:nth-of-type(3) a:hover {
+			background-color: $c-youtube;
+		}
+
+		&:nth-of-type(4) a:hover {
+			background-color: $c-instagram;
+		}
+
+		a {
+			display: block;
+			width: 2.375em;
+			height: 2.375em;
+			border-radius: 50%;
+			background-color: $c-gray-darkest;
+			color: $c-white;
+			line-height: 2.375em;
+			text-align: center;
+
+			&:hover {
+				color: $c-white;
+			}
+		}
+	}
+}

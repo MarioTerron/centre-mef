@@ -1,35 +1,39 @@
 .banner {
+	position: relative;
 	height: 100%;
-	min-height: 500px;
-	max-height: 900px;
+	min-height: 640px;
+	max-height: 960px;
 	background: linear-gradient($c-shadow, $c-shadow), url('../img/banner.jpg') no-repeat center center;
 	background-size: cover;
+	z-index: -1;
 
 	.container {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 100%;
+		transform: translate(-50%, -50%);
+		text-align: center;
 	}
 
 	&__title {
 		margin-bottom: 0;
 		color: $c-white;
 		text-shadow: 0 2px 3px $c-shadow;
+<<<<<<< HEAD:scss/components/_banner.scss
 		text-transform: uppercase;
 		z-index: 1;
 
+=======
+>>>>>>> gh-pages:scss/layout/_banner.scss
   }
 
 	&__subtitle {
+		max-width: 480px;
+		margin-right: auto;
+		margin-left: auto;
 		margin-bottom: 0;
 		color: $c-white;
 		text-shadow: 0 2px 3px $c-shadow;
-		z-index: 1;
   }
 }

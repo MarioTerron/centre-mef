@@ -2,17 +2,21 @@
 @import 'utils/breakpoints';
 @import 'base/reset';
 @import 'base/base';
-@import 'base/grid';
+@import 'base/typography';
 
 
 /*------------------------------------
     $LAYOUT
-  ------------------------------------*/
+------------------------------------*/
 
 
-// Header
-// -----------------------------------------------------------------------------
+@import 'layout/header';
+@import 'layout/features';
+@import 'layout/activities';
+@import 'layout/banner';
+@import 'layout/footer';
 
+<<<<<<< HEAD
 @import 'components/header';
 
 
@@ -45,3 +49,8 @@
 // -----------------------------------------------------------------------------
 
 @import 'components/footer';
+=======
+@import 'pages/contact';
+@import 'pages/location';
+@import 'pages/charities';
+>>>>>>> gh-pages
