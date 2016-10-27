@@ -1,7 +1,17 @@
 
 .charities {
-	font-size: .875rem;
 	color: $c-black;
+	font-size: .875rem;
+
+	&-subtitle {
+		margin: 0 0 2em;
+		color: $c-gray-darker;
+		font-size: 1.3rem;
+		font-weight: 700;
+		letter-spacing: .1em;
+		text-transform: uppercase;
+		opacity: .5;
+	}
 
 	.container {
 		padding: 3.125em 0;
@@ -13,18 +23,9 @@
 
 			text-align: left;
 		};
-	}
 
-	.row {
-		padding: 0 2em;
-
-		.charities-subtitle {
-			margin: 0 0 2em;
-			font-size: 1.3rem;
-			font-weight: 700;
-			letter-spacing: .1em;
-			text-transform: uppercase;
-			opacity: .5;
+		.row {
+			padding: 0 2em;
 		}
 	}
 

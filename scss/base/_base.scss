@@ -107,6 +107,7 @@ small {
 
 ul li {
 	list-style: none;
+	color: $c-black;
 }
 
 ol li {
@@ -128,7 +129,7 @@ p {
 	margin-bottom: 1rem;
 	color: $c-black;
 	font-size: .875rem;
-	line-height: 1.8rem;
+	line-height: 1.6rem;
 }
 
 img,

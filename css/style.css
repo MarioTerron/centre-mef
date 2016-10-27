@@ -385,7 +385,7 @@ html {
 body {
   margin: 0;
   color: #5f5f5f;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: inherit;
   line-height: 1.5; }
 
@@ -445,7 +445,8 @@ small {
   font-size: .875rem; }
 
 ul li {
-  list-style: none; }
+  list-style: none;
+  color: #1f1f1f; }
 
 ol li {
   list-style: none; }
@@ -463,7 +464,7 @@ p {
   margin-bottom: 1rem;
   color: #1f1f1f;
   font-size: .875rem;
-  line-height: 1.8rem; }
+  line-height: 1.6rem; }
 
 img,
 object,
@@ -1002,31 +1003,37 @@ footer {
   margin: 0;
   padding: 0; }
 
-.location {
-  font-size: .875rem; }
-  .location .container {
-    padding: 3.125em 0;
-    text-align: center; }
-    @media (min-width: 62em) {
-      .location .container {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        text-align: left; } }
-    .location .container img {
-      max-width: 720px; }
-    .location .container h3 {
-      padding-top: .75em;
-      font-size: 1.4em;
-      text-transform: uppercase; }
-    .location .container a {
-      color: #929292; }
-      .location .container a:hover {
-        color: #e91e63; }
+.location .container {
+  padding: 3.125em 0;
+  text-align: center; }
+  @media (min-width: 62em) {
+    .location .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      text-align: left; } }
+  .location .container img {
+    max-width: 720px; }
+  .location .container h3 {
+    padding-top: .75em;
+    font-size: 1.4em;
+    text-transform: uppercase; }
+  .location .container a {
+    color: #929292; }
+    .location .container a:hover {
+      color: #8bc34a; }
 
 .charities {
-  font-size: .875rem;
-  color: #1f1f1f; }
+  color: #1f1f1f;
+  font-size: .875rem; }
+  .charities-subtitle {
+    margin: 0 0 2em;
+    color: #5f5f5f;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    opacity: .5; }
   .charities .container {
     padding: 3.125em 0;
     text-align: center; }
@@ -1035,15 +1042,8 @@ footer {
         display: flex;
         justify-content: space-around;
         text-align: left; } }
-  .charities .row {
-    padding: 0 2em; }
-    .charities .row .charities-subtitle {
-      margin: 0 0 2em;
-      font-size: 1.3rem;
-      font-weight: 700;
-      letter-spacing: .1em;
-      text-transform: uppercase;
-      opacity: .5; }
+    .charities .container .row {
+      padding: 0 2em; }
   .charities img {
     display: block;
     max-width: 300px;

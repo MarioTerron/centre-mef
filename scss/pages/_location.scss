@@ -6,7 +6,6 @@
 
 
 .location {
-	font-size: .875rem;
 
 	.container {
 		padding: 3.125em 0;
@@ -34,7 +33,7 @@
 			color: $c-gray;
 
 			&:hover {
-				color: $c-primary;
+				color: $c-secondary;
 			}
 		}
 	}
