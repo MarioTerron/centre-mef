@@ -1013,7 +1013,10 @@ footer {
       justify-content: space-around;
       text-align: left; } }
   .location .container img {
-    max-width: 720px; }
+    max-width: 100%; }
+    @media (min-width: 62em) {
+      .location .container img {
+        max-width: 720px; } }
   .location .container h3 {
     padding-top: .75em;
     font-size: 1.4em;
