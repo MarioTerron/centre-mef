@@ -463,7 +463,6 @@ i {
 p {
   margin-bottom: 1rem;
   color: #1f1f1f;
-  font-size: .875rem;
   line-height: 1.6rem; }
 
 img,
@@ -658,7 +657,7 @@ textarea {
   width: 100%;
   min-height: 560px;
   max-height: 960px;
-  background: url("../img/header.png") no-repeat center center;
+  background: url("../img/header.JPG") no-repeat center center;
   background-size: cover;
   z-index: 0; }
   @media (min-width: 48em) {
@@ -667,7 +666,7 @@ textarea {
   .header--sm {
     position: relative;
     height: 180px;
-    background: url("../img/header.png") no-repeat center center;
+    background: url("../img/header-sm.JPG") no-repeat center center;
     background-size: cover;
     z-index: 0; }
     @media (min-width: 48em) {
@@ -734,11 +733,13 @@ video {
 .feature-card {
   margin-bottom: 3.125em;
   padding-right: 15px;
-  padding-left: 15px; }
+  padding-left: 15px;
+  text-align: center; }
   @media (min-width: 48em) {
     .feature-card {
       width: 50%;
-      float: left; } }
+      float: left;
+      text-align: left; } }
   @media (min-width: 76em) {
     .feature-card {
       width: 25%;
@@ -832,6 +833,14 @@ video {
     height: 40%;
     text-align: left; } }
 
+.activities .container {
+  padding-right: 0;
+  padding-left: 0; }
+  @media (min-width: 48em) {
+    .activities .container {
+      padding-right: .9em;
+      padding-left: .9em; } }
+
 .green-section {
   background-color: #8bc34a; }
 
@@ -904,7 +913,7 @@ video {
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4); }
 
 footer {
-  padding: 1.125em 0;
+  padding: 2.125em 0;
   background-color: #1f1f1f;
   text-align: center; }
   footer p {
@@ -948,7 +957,7 @@ footer {
         color: #fff; }
 
 .contact {
-  padding: 3em 0; }
+  padding: 3.5em 0; }
   .contact .container {
     max-width: 920px;
     text-align: center; }
@@ -970,7 +979,7 @@ footer {
   .contact-form__label {
     font-weight: 600;
     margin-bottom: .5em; }
-  .contact-form__btn {
+  .contact-form__btn, .location-list .location-list__btn {
     display: inline-block;
     width: auto;
     padding: .5em 1.5em;
@@ -986,8 +995,9 @@ footer {
     text-align: center;
     text-transform: uppercase;
     cursor: pointer; }
-    .contact-form__btn:hover {
-      background-color: #f27ba3; }
+    .contact-form__btn:hover, .location-list .location-list__btn:hover {
+      background-color: #f27ba3;
+      color: #fff; }
 
 .contact--success {
   position: relative;
@@ -999,12 +1009,8 @@ footer {
     transform: translateY(-50%);
     text-align: center; }
 
-.contact-list {
-  margin: 0;
-  padding: 0; }
-
 .location .container {
-  padding: 3.125em 0;
+  padding: 5em 0;
   text-align: center; }
   @media (min-width: 62em) {
     .location .container {
@@ -1012,42 +1018,55 @@ footer {
       align-items: center;
       justify-content: space-around;
       text-align: left; } }
-  .location .container img {
-    max-width: 100%; }
-    @media (min-width: 62em) {
-      .location .container img {
-        max-width: 720px; } }
-  .location .container h3 {
+.location img {
+  max-width: 100%;
+  padding-right: 1.5em;
+  padding-bottom: 1.5em;
+  padding-left: 1.5em; }
+  @media (min-width: 62em) {
+    .location img {
+      max-width: 50em;
+      padding-bottom: 0; } }
+
+.location-list {
+  margin: 0;
+  padding: 0; }
+  .location-list h3 {
     padding-top: .75em;
     font-size: 1.4em;
     text-transform: uppercase; }
-  .location .container a {
+    .location-list h3:first-of-type {
+      padding-top: 0; }
+  .location-list a {
     color: #929292; }
-    .location .container a:hover {
+    .location-list a:hover {
       color: #8bc34a; }
 
-.charities {
-  color: #1f1f1f;
-  font-size: .875rem; }
-  .charities-subtitle {
-    margin: 0 0 2em;
-    color: #5f5f5f;
-    font-size: 1.3rem;
-    font-weight: 700;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-    opacity: .5; }
-  .charities .container {
-    padding: 3.125em 0;
-    text-align: center; }
-    @media (min-width: 62em) {
-      .charities .container {
-        display: flex;
-        justify-content: space-around;
-        text-align: left; } }
-    .charities .container .row {
-      padding: 0 2em; }
-  .charities img {
-    display: block;
-    max-width: 300px;
-    margin: 0 auto; }
+.charities-title {
+  font-size: 2.25em;
+  font-weight: 700;
+  text-transform: uppercase; }
+.charities-subtitle {
+  margin: 0 0 2em;
+  color: #5f5f5f;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  opacity: .5; }
+.charities .container {
+  padding: 3.125em 0;
+  text-align: center; }
+  @media (min-width: 62em) {
+    .charities .container {
+      display: flex;
+      justify-content: space-around;
+      text-align: left; } }
+  .charities .container .row {
+    width: 100%;
+    padding: 0 2em; }
+.charities img {
+  display: block;
+  max-width: 400px;
+  max-height: 400px;
+  margin: 0 auto; }

@@ -1,5 +1,5 @@
 .contact {
-	padding: 3em 0;
+	padding: 3.5em 0;
 
 	.container {
 		max-width: 920px;
@@ -51,7 +51,9 @@
 
 		&:hover {
 			background-color: $c-primary-lighten;
+			color: $c-white;
 		}
+
 	}
 }
 

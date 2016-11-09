@@ -1,14 +1,7 @@
-
-.contact-list {
-	margin: 0;
-	padding: 0;
-}
-
-
 .location {
 
 	.container {
-		padding: 3.125em 0;
+		padding: 5em 0;
 		text-align: center;
 
 		@include media (lg) {
@@ -17,28 +10,47 @@
 			justify-content: space-around;
 
 			text-align: left;
-		};
-
-		img {
-			max-width: 100%;
-
-			@include media (lg) {
-				max-width: 720px;
-			}
 		}
+	}
 
-		h3 {
-			padding-top: .75em;
-			font-size: 1.4em;
-			text-transform: uppercase;
+	img {
+		max-width: 100%;
+		padding-right: 1.5em;
+		padding-bottom: 1.5em;
+		padding-left: 1.5em;
+
+		@include media (lg) {
+			max-width: 50em;
+			padding-bottom: 0;
 		}
+	}
 
-		a {
-			color: $c-gray;
+}
 
-			&:hover {
-				color: $c-secondary;
-			}
+.location-list {
+	margin: 0;
+	padding: 0;
+
+	h3 {
+		padding-top: .75em;
+		font-size: 1.4em;
+		text-transform: uppercase;
+
+		&:first-of-type {
+			padding-top: 0;
 		}
+	}
+
+	a {
+		color: $c-gray;
+
+		&:hover {
+			color: $c-secondary;
+		}
+	}
+
+	.location-list__btn {
+		@extend .contact-form__btn;
+
 	}
 }

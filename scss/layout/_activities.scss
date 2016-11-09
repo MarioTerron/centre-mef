@@ -1,5 +1,19 @@
 @import 'components/activity-card';
 
+
+.activities {
+
+	.container {
+		padding-right: 0;
+		padding-left: 0;
+
+		@include media(md) {
+			padding-right: .9em;
+			padding-left: .9em;
+		}
+	}
+}
+
 .green-section {
 	background-color: $c-secondary;
 }

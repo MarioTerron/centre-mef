@@ -124,6 +124,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/agua-ong.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 578262,
+		"inputAbbreviatedPath": "\/img\/agua-ong.jpg",
+		"outputAbbreviatedPath": "\/img\/agua-ong.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/banner.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -146,6 +157,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/fundacio-roses-cancer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15487,
+		"inputAbbreviatedPath": "\/img\/fundacio-roses-cancer.jpg",
+		"outputAbbreviatedPath": "\/img\/fundacio-roses-cancer.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/fundacio-roses-cancer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44095,
+		"inputAbbreviatedPath": "\/img\/fundacio-roses-cancer.png",
+		"outputAbbreviatedPath": "\/img\/fundacio-roses-cancer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/header-sm.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.28767e+06,
+		"inputAbbreviatedPath": "\/img\/header-sm.JPG",
+		"outputAbbreviatedPath": "\/img\/header-sm.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/header.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.30387e+06,
+		"inputAbbreviatedPath": "\/img\/header.JPG",
+		"outputAbbreviatedPath": "\/img\/header.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/header.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -153,6 +208,17 @@
 		"initialSize": 1.88502e+06,
 		"inputAbbreviatedPath": "\/img\/header.png",
 		"outputAbbreviatedPath": "\/img\/header.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/staticmap.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92168,
+		"inputAbbreviatedPath": "\/img\/staticmap.jpg",
+		"outputAbbreviatedPath": "\/img\/staticmap.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

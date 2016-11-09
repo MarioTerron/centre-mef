@@ -7,10 +7,12 @@
 	margin-bottom: 3.125em;
 	padding-right: 15px;
 	padding-left: 15px;
+	text-align: center;
 
 	@include media(md) {
 		width: 50%;
 		float: left;
+		text-align: left;
 	}
 
 	@include media(xl) {
