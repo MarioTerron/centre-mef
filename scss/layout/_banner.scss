@@ -3,7 +3,9 @@
 	height: 100%;
 	min-height: 640px;
 	max-height: 960px;
-	background: linear-gradient($c-shadow, $c-shadow), url('../img/banner.jpg') no-repeat center center;
+	background: linear-gradient($c-shadow, $c-shadow), url('../img/banner.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
 	background-size: cover;
 	z-index: -1;
 
@@ -25,8 +27,8 @@
 	&__subtitle {
 		max-width: 480px;
 		margin-right: auto;
-		margin-left: auto;
 		margin-bottom: 0;
+		margin-left: auto;
 		color: $c-white;
 		text-shadow: 0 2px 3px $c-shadow;
   }

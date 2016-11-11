@@ -135,13 +135,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/banner.jpg": {
+	"\/img\/banner.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.36435e+06,
+		"inputAbbreviatedPath": "\/img\/banner.JPG",
+		"outputAbbreviatedPath": "\/img\/banner.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/banner2jpg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 870498,
-		"inputAbbreviatedPath": "\/img\/banner.jpg",
-		"outputAbbreviatedPath": "\/img\/banner.jpg",
+		"inputAbbreviatedPath": "\/img\/banner2jpg.jpg",
+		"outputAbbreviatedPath": "\/img\/banner2jpg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -164,17 +175,6 @@
 		"initialSize": 15487,
 		"inputAbbreviatedPath": "\/img\/fundacio-roses-cancer.jpg",
 		"outputAbbreviatedPath": "\/img\/fundacio-roses-cancer.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/fundacio-roses-cancer.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 44095,
-		"inputAbbreviatedPath": "\/img\/fundacio-roses-cancer.png",
-		"outputAbbreviatedPath": "\/img\/fundacio-roses-cancer.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -603,11 +603,11 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/thank-you-contact-form.html": {
+	"\/thank-you-contact.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/thank-you-contact-form.html",
+		"inputAbbreviatedPath": "\/thank-you-contact.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

@@ -657,18 +657,20 @@ textarea {
   width: 100%;
   min-height: 560px;
   max-height: 960px;
-  background: url("../img/header.JPG") no-repeat center center;
-  background-size: cover;
-  z-index: 0; }
+  background-image: url("../img/header.JPG");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
   @media (min-width: 48em) {
     .header {
       height: 100%; } }
   .header--sm {
     position: relative;
     height: 180px;
-    background: url("../img/header-sm.JPG") no-repeat center center;
-    background-size: cover;
-    z-index: 0; }
+    background: url("../img/header-sm.JPG");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; }
     @media (min-width: 48em) {
       .header--sm {
         height: 320px; } }
@@ -788,13 +790,15 @@ video {
       .activity-card .text-wrapper, .activity-card--left .text-wrapper, .activity-card--inverse .text-wrapper, .activity-card--inverse--small .text-wrapper {
         height: 100%; } }
   .activity-card__title {
-    color: #8bc34a;
+    color: #e91e63;
     font-size: 1.8rem;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-bottom: 0; }
     @media (min-width: 48em) {
       .activity-card__title {
         font-size: 2.3rem; } }
   .activity-card__subtitle {
+    color: #929292;
     margin: 0;
     font-size: .8rem;
     text-transform: uppercase; }
@@ -882,15 +886,15 @@ video {
 .remodal h5 {
   color: #8bc34a;
   text-transform: uppercase; }
-.remodal p {
-  font-size: .875rem; }
 
 .banner {
   position: relative;
   height: 100%;
   min-height: 640px;
   max-height: 960px;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/banner.jpg") no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
   z-index: -1; }
   .banner .container {
@@ -907,8 +911,8 @@ video {
   .banner__subtitle {
     max-width: 480px;
     margin-right: auto;
-    margin-left: auto;
     margin-bottom: 0;
+    margin-left: auto;
     color: #fff;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4); }
 
@@ -939,10 +943,8 @@ footer {
     .social-icons li:nth-of-type(1) a:hover {
       background-color: #3b5998; }
     .social-icons li:nth-of-type(2) a:hover {
-      background-color: #55acee; }
-    .social-icons li:nth-of-type(3) a:hover {
       background-color: #cd201f; }
-    .social-icons li:nth-of-type(4) a:hover {
+    .social-icons li:nth-of-type(3) a:hover {
       background-color: #833ab4; }
     .social-icons li a {
       display: block;

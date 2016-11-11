@@ -23,9 +23,10 @@
 	width: 100%;
 	min-height: 560px;
 	max-height: 960px;
-	background: url('../img/header.JPG') no-repeat center center;
+	background-image: url('../img/header.JPG');
+	background-repeat: no-repeat;
+	background-position: center center;
 	background-size: cover;
-	z-index: 0;
 
 	@include media(md) {
 		height: 100%;
@@ -34,9 +35,10 @@
 	&--sm {
 		position: relative;
 		height: 180px;
-		background: url('../img/header-sm.JPG') no-repeat center center;
+		background: url('../img/header-sm.JPG');
+		background-repeat: no-repeat;
+		background-position: center center;
 		background-size: cover;
-		z-index: 0;
 
 		@include media(md) {
 			height: 320px;
