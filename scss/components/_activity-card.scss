@@ -37,10 +37,10 @@
 	}
 
 	&__title {
+		margin-bottom: 0;
 		color: $c-primary;
 		font-size: 1.8rem;
 		text-transform: uppercase;
-		margin-bottom: 0;
 
 		@include media (md) {
 			font-size: 2.3rem;
@@ -48,8 +48,8 @@
   }
 
 	&__subtitle {
-		color: $c-gray;
 		margin: 0;
+		color: $c-gray;
 		font-size: .8rem;
 		text-transform: uppercase;
 

@@ -445,8 +445,8 @@ small {
   font-size: .875rem; }
 
 ul li {
-  list-style: none;
-  color: #1f1f1f; }
+  color: #1f1f1f;
+  list-style: none; }
 
 ol li {
   list-style: none; }
@@ -483,7 +483,6 @@ blockquote {
 
 a {
   color: #8bc34a;
-  text-decoration: none;
   cursor: pointer; }
   a:hover {
     color: #bcdc97; }
@@ -790,16 +789,16 @@ video {
       .activity-card .text-wrapper, .activity-card--left .text-wrapper, .activity-card--inverse .text-wrapper, .activity-card--inverse--small .text-wrapper {
         height: 100%; } }
   .activity-card__title {
+    margin-bottom: 0;
     color: #e91e63;
     font-size: 1.8rem;
-    text-transform: uppercase;
-    margin-bottom: 0; }
+    text-transform: uppercase; }
     @media (min-width: 48em) {
       .activity-card__title {
         font-size: 2.3rem; } }
   .activity-card__subtitle {
-    color: #929292;
     margin: 0;
+    color: #929292;
     font-size: .8rem;
     text-transform: uppercase; }
 
@@ -879,13 +878,16 @@ video {
 .img-6 {
   background-image: url("../img/A6.jpg"); }
 
-.remodal h1,
-.remodal h2,
-.remodal h3,
-.remodal h4,
-.remodal h5 {
-  color: #8bc34a;
-  text-transform: uppercase; }
+.remodal {
+  text-align: left; }
+  .remodal h1,
+  .remodal h2,
+  .remodal h3,
+  .remodal h4,
+  .remodal h5 {
+    color: #e91e63;
+    text-transform: uppercase;
+    text-align: center; }
 
 .banner {
   position: relative;
@@ -941,11 +943,11 @@ footer {
     .social-icons li:last-child {
       margin-right: 0; }
     .social-icons li:nth-of-type(1) a:hover {
-      background-color: #3b5998; }
-    .social-icons li:nth-of-type(2) a:hover {
-      background-color: #cd201f; }
-    .social-icons li:nth-of-type(3) a:hover {
       background-color: #833ab4; }
+    .social-icons li:nth-of-type(2) a:hover {
+      background-color: #3b5998; }
+    .social-icons li:nth-of-type(3) a:hover {
+      background-color: #cd201f; }
     .social-icons li a {
       display: block;
       width: 2.375em;
@@ -967,8 +969,8 @@ footer {
     margin-bottom: 1.125em; }
 
 .contact-title {
-  text-transform: uppercase;
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+  text-transform: uppercase; }
   @media (min-width: 48em) {
     .contact-title {
       font-size: 2rem; } }
@@ -979,8 +981,8 @@ footer {
 .contact-form {
   text-align: left; }
   .contact-form__label {
-    font-weight: 600;
-    margin-bottom: .5em; }
+    margin-bottom: .5em;
+    font-weight: 600; }
   .contact-form__btn, .location-list .location-list__btn {
     display: inline-block;
     width: auto;
@@ -1040,7 +1042,8 @@ footer {
     .location-list h3:first-of-type {
       padding-top: 0; }
   .location-list a {
-    color: #929292; }
+    color: #929292;
+    text-decoration: none; }
     .location-list a:hover {
       color: #8bc34a; }
 

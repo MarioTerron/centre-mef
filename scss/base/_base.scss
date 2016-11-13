@@ -106,8 +106,8 @@ small {
 }
 
 ul li {
-	list-style: none;
 	color: $c-black;
+	list-style: none;
 }
 
 ol li {
@@ -159,7 +159,6 @@ blockquote {
 
 a {
 	color: $c-secondary;
-	text-decoration: none;
 	cursor: pointer;
 
 	&:visited {	}

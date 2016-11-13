@@ -34,7 +34,7 @@
 	.activity-card__title,
 	.activity-card__subtitle,
 	.activity-card__description {
-	color: $c-white;
+		color: $c-white;
 	}
 }
 
@@ -63,16 +63,16 @@
 }
 
 .remodal {
+
+	text-align: left;
+
 	h1,
 	h2,
 	h3,
 	h4,
 	h5 {
-		color: $c-secondary;
+		color: $c-primary;
 		text-transform: uppercase;
-	}
-
-	ul {
-
+		text-align: center;
 	}
 }
