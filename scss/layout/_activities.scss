@@ -33,8 +33,13 @@
 
 	.activity-card__title,
 	.activity-card__subtitle,
-	.activity-card__description {
+	.activity-card__description,
+	a {
 		color: $c-white;
+	}
+
+	a:hover {
+		color: $c-white-darker;
 	}
 }
 
@@ -72,7 +77,7 @@
 	h4,
 	h5 {
 		color: $c-primary;
-		text-transform: uppercase;
 		text-align: center;
+		text-transform: uppercase;
 	}
 }
