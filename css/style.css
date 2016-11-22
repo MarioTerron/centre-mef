@@ -510,6 +510,7 @@ textarea {
   src: url("../../fonts/icomoon.eot?2hz4zv#iefix") format("embedded-opentype"), url("../../fonts/icomoon.ttf?2hz4zv") format("truetype"), url("../../fonts/icomoon.woff?2hz4zv") format("woff"), url("../../fonts/icomoon.svg?2hz4zv#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
+
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -743,7 +744,7 @@ video {
       text-align: left; } }
   @media (min-width: 76em) {
     .feature-card {
-      width: 25%;
+      width: 33.3333%;
       float: left; } }
   .feature-card__title {
     margin: 1rem 0;
@@ -755,7 +756,7 @@ video {
     margin-bottom: 2em;
     color: #fff;
     line-height: 1.8rem; }
-  .feature-card__icon {
+  .feature-card .fa {
     color: #fff;
     font-size: 3rem; }
 
@@ -811,24 +812,29 @@ video {
     width: 65%;
     height: 640px;
     float: left; } }
+
 @media (min-width: 66em) {
   .activity-card--inverse .img-wrapper, .activity-card--inverse--small .img-wrapper {
     width: 100%;
     height: 60%; } }
+
 @media (min-width: 66em) {
   .activity-card--inverse .text-wrapper, .activity-card--inverse--small .text-wrapper {
     align-items: flex-start;
     width: 100%;
     height: 40%;
     text-align: left; } }
+
 @media (min-width: 66em) {
   .activity-card--inverse--small {
     width: 35%;
     height: 640px; } }
+
 @media (min-width: 66em) {
   .activity-card--inverse--small .img-wrapper {
     width: 100%;
     height: 60%; } }
+
 @media (min-width: 66em) {
   .activity-card--inverse--small .text-wrapper {
     align-items: flex-start;
@@ -864,22 +870,22 @@ video {
     color: #e6e6e6; }
 
 .img-1 {
-  background-image: url("../img/A1.jpg"); }
+  background-image: url("../img/zumba.jpeg"); }
 
 .img-2 {
-  background-image: url("../img/A2.jpg"); }
+  background-image: url("../img/aerodansa.jpeg"); }
 
 .img-3 {
-  background-image: url("../img/A3.jpg"); }
+  background-image: url("../img/estiraments.jpeg"); }
 
 .img-4 {
-  background-image: url("../img/A4.jpg"); }
+  background-image: url("../img/jumping.jpeg"); }
 
 .img-5 {
-  background-image: url("../img/A5.jpg"); }
+  background-image: url("../img/pilates.jpeg"); }
 
 .img-6 {
-  background-image: url("../img/A6.jpg"); }
+  background-image: url("../img/gac.jpeg"); }
 
 .remodal {
   text-align: left; }
@@ -965,7 +971,7 @@ footer {
         color: #fff; }
 
 .contact {
-  padding: 3.5em 0; }
+  padding: 3.5rem 0; }
   .contact .container {
     max-width: 920px;
     text-align: center; }
@@ -996,7 +1002,7 @@ footer {
     border-radius: .2em;
     background-color: #e91e63;
     color: #fff;
-    font-size: .875em;
+    font-size: .875rem;
     font-weight: 600;
     letter-spacing: .125em;
     line-height: 1.5;
@@ -1026,6 +1032,7 @@ footer {
       align-items: center;
       justify-content: space-around;
       text-align: left; } }
+
 .location img {
   max-width: 100%;
   padding-right: 1.5em;
@@ -1055,6 +1062,7 @@ footer {
   font-size: 2.25em;
   font-weight: 700;
   text-transform: uppercase; }
+
 .charities-subtitle {
   margin: 0 0 2em;
   color: #5f5f5f;
@@ -1063,6 +1071,7 @@ footer {
   letter-spacing: .1em;
   text-transform: uppercase;
   opacity: .5; }
+
 .charities .container {
   padding: 3.125em 0;
   text-align: center; }
@@ -1074,6 +1083,7 @@ footer {
   .charities .container .row {
     width: 100%;
     padding: 0 2em; }
+
 .charities img {
   display: block;
   max-width: 400px;

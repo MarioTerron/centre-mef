@@ -1,5 +1,4 @@
-@import 'components/activity-card';
-
+@import '../components/activity-card';
 
 .activities {
 
@@ -44,27 +43,27 @@
 }
 
 .img-1 {
-	background-image: url('../img/A1.jpg');
+	background-image: url('../img/zumba.jpeg');
 }
 
 .img-2 {
-	background-image: url('../img/A2.jpg');
+	background-image: url('../img/aerodansa.jpeg');
 }
 
 .img-3 {
-	background-image: url('../img/A3.jpg');
+	background-image: url('../img/estiraments.jpeg');
 }
 
 .img-4 {
-	background-image: url('../img/A4.jpg');
+	background-image: url('../img/jumping.jpeg');
 }
 
 .img-5 {
-	background-image: url('../img/A5.jpg');
+	background-image: url('../img/pilates.jpeg');
 }
 
 .img-6 {
-	background-image: url('../img/A6.jpg');
+	background-image: url('../img/gac.jpeg');
 }
 
 .remodal {
