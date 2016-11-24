@@ -285,26 +285,6 @@
 		"oAP": "\/css\/.sass-cache\/c565a81903054f5758bdf9942682d044a6809802\/_reset.scssc",
 		"oF": 0
 		},
-	"\/css\/font-awesome.min.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/css\/font-awesome.min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/css\/remodal.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/remodal-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/css\/style.css": {
 		"aP": 0,
 		"bl": 0,
@@ -355,15 +335,7 @@
 		"oAP": "\/fonts\/FontAwesome.otf",
 		"oF": 0
 		},
-	"\/img\/aerodansa-shut.jpeg": {
-		"ft": 16384,
-		"iS": 544304,
-		"oA": 0,
-		"oAP": "\/img\/aerodansa-shut.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/aerodansa.jpeg": {
+	"\/img\/aerodansa.jpg": {
 		"ft": 16384,
 		"iS": 68161,
 		"oA": 0,
@@ -385,25 +357,9 @@
 		"oA": 0,
 		"oAP": "\/img\/banner.JPG",
 		"oF": 0,
-		"opt": 1
-		},
-	"\/img\/banner2jpg.jpg": {
-		"ft": 16384,
-		"iS": 870498,
-		"oA": 0,
-		"oAP": "\/img\/banner2jpg.jpg",
-		"oF": 0,
 		"opt": 0
 		},
-	"\/img\/estiraments-shut.jpeg": {
-		"ft": 16384,
-		"iS": 393230,
-		"oA": 0,
-		"oAP": "\/img\/estiraments-shut.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/estiraments.jpeg": {
+	"\/img\/estiraments.jpg": {
 		"ft": 16384,
 		"iS": 9729275,
 		"oA": 0,
@@ -413,21 +369,13 @@
 		},
 	"\/img\/fundacio-roses-cancer.jpg": {
 		"ft": 16384,
-		"iS": 15487,
+		"iS": 13735,
 		"oA": 0,
 		"oAP": "\/img\/fundacio-roses-cancer.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/img\/gac-shut.jpeg": {
-		"ft": 16384,
-		"iS": 297029,
-		"oA": 0,
-		"oAP": "\/img\/gac-shut.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/gac.jpeg": {
+	"\/img\/gac.jpg": {
 		"ft": 16384,
 		"iS": 3302043,
 		"oA": 0,
@@ -439,7 +387,7 @@
 		"ft": 16384,
 		"iS": 1287670,
 		"oA": 0,
-		"oAP": "\/img\/header-sm.JPG",
+		"oAP": "\/img\/header-sm.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -447,19 +395,19 @@
 		"ft": 16384,
 		"iS": 1303870,
 		"oA": 0,
-		"oAP": "\/img\/header.JPG",
+		"oAP": "\/img\/header.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/img\/jumping-shut.jpeg": {
+	"\/img\/horaris.jpg": {
 		"ft": 16384,
-		"iS": 862389,
+		"iS": 115987,
 		"oA": 0,
-		"oAP": "\/img\/jumping-shut.jpg",
+		"oAP": "\/img\/horaris.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/img\/jumping.jpeg": {
+	"\/img\/jumping.jpg": {
 		"ft": 16384,
 		"iS": 3210020,
 		"oA": 0,
@@ -467,15 +415,7 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/img\/pilates-shut.jpeg": {
-		"ft": 16384,
-		"iS": 501975,
-		"oA": 0,
-		"oAP": "\/img\/pilates-shut.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/pilates.jpeg": {
+	"\/img\/pilates.jpg": {
 		"ft": 16384,
 		"iS": 256952,
 		"oA": 0,
@@ -491,15 +431,7 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/img\/zumba-shut.jpeg": {
-		"ft": 16384,
-		"iS": 489403,
-		"oA": 0,
-		"oAP": "\/img\/zumba-shut.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/zumba.jpeg": {
+	"\/img\/zumba.jpg": {
 		"ft": 16384,
 		"iS": 1429102,
 		"oA": 0,
@@ -518,15 +450,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/jquery.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/min\/nav-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/min\/min\/nav-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -553,12 +476,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/location.html",
-		"oF": 0
-		},
-	"\/other\/mef_horaris.zip": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/other\/mef_horaris.zip",
 		"oF": 0
 		},
 	"\/php\/mail.php": {
@@ -790,6 +707,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/base\/_icons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/css\/_icons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/base\/_reset.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -799,19 +729,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/css\/_reset.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/base\/_typography.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/scss\/css\/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1003,6 +920,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/vendors\/_remodal.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/css\/_remodal.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/thank-you-contact.html": {
 		"ft": 8192,
 		"oA": 0,
@@ -1024,7 +954,7 @@
 	"creationDate": 501075365,
 	"displayValue": "centre-mef",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-kanye"
+	"iconImageName": "brackets_green"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

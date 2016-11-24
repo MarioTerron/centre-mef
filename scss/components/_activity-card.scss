@@ -1,11 +1,10 @@
 .activity-card {
-	width: 100%;
-	height: 700px;
+	height: 50em;
 	background-color: $c-white;
 	box-shadow: 0 1px 7px $c-shadow;
 
 	@include media (lg) {
-		height: 394px;
+		height: 28.25em;
 	}
 
 	.img-wrapper {
@@ -71,7 +70,7 @@
 
 	@include media (lg) {
 		width: 65%;
-		height: 640px;
+		height: 45.75em;
 		float: left;
 	}
 
@@ -97,7 +96,7 @@
 
 		@include media (lg) {
 			width: 35%;
-			height: 640px;
+			height: 45.75em;
 		}
 
 		.img-wrapper {

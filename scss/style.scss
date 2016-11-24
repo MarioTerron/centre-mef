@@ -2,7 +2,7 @@
 @import 'utils/breakpoints';
 @import 'base/reset';
 @import 'base/base';
-@import 'base/typography';
+@import 'base/icons';
 
 
 /*------------------------------------
@@ -18,3 +18,5 @@
 @import 'pages/contact';
 @import 'pages/location';
 @import 'pages/charities';
+
+@import 'vendors/remodal';

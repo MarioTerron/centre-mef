@@ -20,9 +20,8 @@
 
 .header {
 	position: relative;
-	width: 100%;
-	min-height: 560px;
-	max-height: 960px;
+	min-height: 40em;
+	max-height: 68.5em;
 	background-image: url('../img/header.JPG');
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -34,14 +33,14 @@
 
 	&--sm {
 		position: relative;
-		height: 180px;
+		height: 12.75em;
 		background: url('../img/header-sm.JPG');
 		background-repeat: no-repeat;
 		background-position: center center;
 		background-size: cover;
 
 		@include media(md) {
-			height: 320px;
+			height: 22.75em;
 		}
 	}
 
@@ -124,7 +123,6 @@ video {
 	display: none;
 	position: absolute;
 	bottom: 0;
-	width: 100%;
 
 	@include media(md) {
 		display: block;
