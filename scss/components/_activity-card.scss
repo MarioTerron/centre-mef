@@ -1,5 +1,8 @@
+// Activity Card
+// -----------------------------------------------------------------------------
+
 .activity-card {
-	height: 50em;
+	height: 42.5em;
 	background-color: $c-white;
 	box-shadow: 0 1px 7px $c-shadow;
 
@@ -55,8 +58,16 @@
   }
 }
 
+
+// Card Modifiers
+// -----------------------------------------------------------------------------
+
 .activity-card--left {
 	@extend .activity-card;
+
+	@include media (lg) {
+		height: 28.25em;
+	}
 
 	.img-wrapper {
 		@include media(lg) {
@@ -70,7 +81,7 @@
 
 	@include media (lg) {
 		width: 65%;
-		height: 45.75em;
+		height: 40.25em;
 		float: left;
 	}
 
@@ -96,7 +107,7 @@
 
 		@include media (lg) {
 			width: 35%;
-			height: 45.75em;
+			height: 40.25em;
 		}
 
 		.img-wrapper {

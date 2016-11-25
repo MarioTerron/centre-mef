@@ -482,7 +482,7 @@ blockquote {
   padding: 2em;
   background: #930e3b;
   color: #fff;
-  font-size: 2.3em;
+  font-size: 1.55rem;
   font-style: italic; }
   blockquote p:last-child {
     margin-bottom: 0; }
@@ -2975,7 +2975,7 @@ textarea {
     background-size: cover; }
     @media (min-width: 48em) {
       .header--sm {
-        height: 22.75em; } }
+        height: 22em; } }
 
 .title-container {
   position: absolute;
@@ -3025,40 +3025,40 @@ video {
   display: none;
   position: absolute;
   bottom: 0; }
-  @media (min-width: 48em) {
+  @media (min-width: 66em) {
     video {
       display: block; } }
 
-.features {
+.services {
   padding: 6.25em 0;
   background-color: #8bc34a; }
 
-.feature-card {
+.service {
   margin-bottom: 3.125em;
   padding-right: 1em;
   padding-left: 1em;
   text-align: center; }
   @media (min-width: 66em) {
-    .feature-card {
+    .service {
       width: 33.3333%;
       float: left;
       text-align: left; } }
-  .feature-card__title {
+  .service__title {
     margin: 1em 0;
     color: #fff;
     font-size: 1.45rem; }
-  .feature-card__link {
+  .service__link {
     color: #fff; }
-  .feature-card__description {
+  .service__description {
     margin-bottom: 2em;
     color: #fff;
     line-height: 1.8rem; }
-  .feature-card .fa {
+  .service .fa {
     color: #fff;
     font-size: 3rem; }
 
 .activity-card, .activity-card--left, .activity-card--inverse, .activity-card--inverse--small {
-  height: 50em;
+  height: 42.5em;
   background-color: #fff;
   box-shadow: 0 1px 7px rgba(0, 0, 0, 0.4); }
   @media (min-width: 66em) {
@@ -3100,13 +3100,17 @@ video {
     text-transform: uppercase; }
 
 @media (min-width: 66em) {
+  .activity-card--left {
+    height: 28.25em; } }
+
+@media (min-width: 66em) {
   .activity-card--left .img-wrapper {
     float: left; } }
 
 @media (min-width: 66em) {
   .activity-card--inverse, .activity-card--inverse--small {
     width: 65%;
-    height: 45.75em;
+    height: 40.25em;
     float: left; } }
 
 @media (min-width: 66em) {
@@ -3124,7 +3128,7 @@ video {
 @media (min-width: 66em) {
   .activity-card--inverse--small {
     width: 35%;
-    height: 45.75em; } }
+    height: 40.25em; } }
 
 @media (min-width: 66em) {
   .activity-card--inverse--small .img-wrapper {
@@ -3355,9 +3359,12 @@ footer {
       color: #8bc34a; }
 
 .charities-title {
-  font-size: 2.25em;
+  font-size: 2.25rem;
   font-weight: 700;
   text-transform: uppercase; }
+  @media (min-width: 66em) {
+    .charities-title {
+      font-size: 1.75rem; } }
 
 .charities-subtitle {
   margin: 0 0 2em;
@@ -3367,6 +3374,9 @@ footer {
   letter-spacing: .1em;
   text-transform: uppercase;
   opacity: .5; }
+  @media (min-width: 66em) {
+    .charities-subtitle {
+      font-size: 1rem; } }
 
 .charities .container {
   padding: 3.125em 0;
@@ -3383,7 +3393,7 @@ footer {
 .charities img {
   display: block;
   max-width: 400px;
-  max-height: 400px;
+  max-height: 350px;
   margin: 0 auto; }
 
 /*

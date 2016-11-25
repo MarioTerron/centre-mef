@@ -40,7 +40,7 @@
 		background-size: cover;
 
 		@include media(md) {
-			height: 22.75em;
+			height: 22em;
 		}
 	}
 
@@ -124,7 +124,7 @@ video {
 	position: absolute;
 	bottom: 0;
 
-	@include media(md) {
+	@include media(lg) {
 		display: block;
 	}
 }
