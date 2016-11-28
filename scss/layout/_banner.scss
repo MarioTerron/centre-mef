@@ -29,16 +29,14 @@
 	&__title {
 		margin-bottom: 0;
 		color: $c-white;
+		font-size: 3rem;
 		text-shadow: 0 2px 3px $c-shadow;
 		text-transform: uppercase;
   }
 
 	&__subtitle {
-		max-width: 480px;
-		margin-right: auto;
-		margin-bottom: 0;
-		margin-left: auto;
 		color: $c-white;
+		font-size: 1.25rem;
 		text-shadow: 0 2px 3px $c-shadow;
   }
 }

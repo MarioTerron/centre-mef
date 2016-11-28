@@ -123,6 +123,7 @@ video {
 	display: none;
 	position: absolute;
 	bottom: 0;
+	width: 100%;
 
 	@include media(lg) {
 		display: block;

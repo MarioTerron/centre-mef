@@ -128,7 +128,6 @@ i {
 p {
 	margin-bottom: 1rem;
 	color: $c-black;
-	// font-size: .875rem;
 	line-height: 1.6rem;
 }
 
@@ -141,10 +140,10 @@ embed {
 
 blockquote {
 	margin: 0 0 1em;
-	padding: 2em;
+	padding: 1.5em;
 	background: $c-primary-darken;
 	color: $c-white;
-	font-size: 1.55rem;
+	font-size: 1.25rem;
 	font-style: italic;
 
 	p {
@@ -161,14 +160,9 @@ a {
 	color: $c-secondary;
 	cursor: pointer;
 
-	&:visited {	}
-
 	&:hover {
 		color: $c-secondary-lighten;
 	}
-
-	&:active { }
-	&:focus { }
 
 	// Improve readability when focused and hovered in all browsers: h5bp.com/h
 	&:focus,
