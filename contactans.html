@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>MEF | Centre d'educació física inclusiva</title>
+	<meta name="description" content="Pots posar-te en contacte amb nosaltres a través del nostre formulari o trucant al 661396083.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Goole Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,400,600,900)">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,400,600,900)">
+
+	<!-- Custom CSS  -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<section class="header--sm">
+		<div id="nav-open" class="nav-open">
+			<span class="fa fa-navicon"></span>
+		</div>
+		<menu class="nav">
+			<div id="nav-close" class="nav-close">
+				<span class="fa fa-times"></span>
+			</div>
+			<ul class="nav__list">
+				<li class="nav__item"><a class="nav__link" href="index.html">Inici</a></li>
+				<li class="nav__item"><a class="nav__link" href="index.html#features">Serveis</a></li>
+				<li class="nav__item"><a class="nav__link" href="index.html#activities">Activitats</a></li>
+				<li class="nav__item"><a class="nav__link" href="col·laborem.html">Col·laborem</a></li>
+				<li class="nav__item"><a class="nav__link" href="ubicacio.html">Ubicació</a></li>
+				<li class="nav__item"><a class="nav__link" href="contactans.html">Contacta'ns</a></li>
+			</ul>
+		</menu>
+		<!-- /.menu -->
+
+		<div class="title-container">
+			<h1 class="title--sm">Contacta'ns</h1>
+		</div>
+		<div class="filter"></div>
+	</section>
+	<!-- /.header -->
+
+    <section class="contact">
+        <div class="container">
+			<p class="contact-description">Si tens alguna pregunta, no ho dubtis, emplena el següent formulari i si et podem ajudar estarem encantats de fer-ho.</p>
+            <h3 class="contact-title">Envia'ns el teu missatge</h3>
+            <form class="contact-form" action="php/mail.php" method="POST">
+                <div class="row">
+                	<label class="contact-form__label" for="name">Nom i Cognom</label><br>
+                	<input class="contact-form__input" name="name" type="text" value=""><br>
+                </div>
+                <div class="row">
+                    <label class="contact-form__label" for="phone">Telèfon</label><br>
+                    <input class="contact-form__input" name="phone" type="text" value=""><br>
+                </div>
+            	<div class="row">
+            		<label class="contact-form__label" for="email">Correu Electrònic</label><br>
+            		<input class="contact-form__input" name="email" type="text" value=""><br>
+            	</div>
+            	<div class="row">
+            		<label class="contact-form__label" for="message">Missatge</label><br>
+            		<textarea class="contact-form__input" name="message" rows="10" cols="50"></textarea><br>
+            	</div>
+            	<input class="contact-form__btn" id="submit_button" type="submit" value="Enviar" />
+            </form>
+        </div>
+    </section>
+	<!-- /.contact -->
+
+
+	<footer class="footer">
+		<ul class="social-icons">
+			<li>
+				<a href="http://www.instagram.com/centremef/"><i class="fa fa-instagram"></i></a>
+			</li>
+			<li>
+				<a href="http://www.facebook.com/centreMEFroses/"><i class="fa fa-facebook"></i></a>
+			</li>
+			<li>
+				<a href="http://www.youtube.com/watch?v=TSIBKYSbtfo"><i class="fa fa-youtube-play"></i></a>
+			</li>
+		</ul>
+		<p>&copy;2017 CENTRE MEF, all rights reserved.</p>
+	</footer>
+	<!-- /.footer -->
+
+	<!-- JS  -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/nav.js"></script>
+
+</body>
+
+</html>

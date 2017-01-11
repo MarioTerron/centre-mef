@@ -1,9 +1,9 @@
+@import '../components/nav';
+
+
 // -----------------------------------------------------------------------------
 //    $HEADER
 // -----------------------------------------------------------------------------
-
-@import 'components/nav';
-
 
 .filter {
 	position: absolute;
@@ -20,12 +20,12 @@
 
 .header {
 	position: relative;
-	width: 100%;
-	min-height: 560px;
-	max-height: 960px;
-	background: url('../img/header.png') no-repeat center center;
+	min-height: 40em;
+	max-height: 68.5em;
+	background-image: url('../img/header.JPG');
+	background-repeat: no-repeat;
+	background-position: center center;
 	background-size: cover;
-	z-index: 0;
 
 	@include media(md) {
 		height: 100%;
@@ -33,13 +33,14 @@
 
 	&--sm {
 		position: relative;
-		height: 180px;
-		background: url('../img/header.png') no-repeat center center;
+		height: 12.75em;
+		background: url('../img/header-sm.JPG');
+		background-repeat: no-repeat;
+		background-position: center center;
 		background-size: cover;
-		z-index: 0;
 
 		@include media(md) {
-			height: 320px;
+			height: 22em;
 		}
 	}
 
@@ -124,7 +125,7 @@ video {
 	bottom: 0;
 	width: 100%;
 
-	@include media(md) {
+	@include media(lg) {
 		display: block;
 	}
 }

@@ -2,8 +2,12 @@
 //    $FOOTER
 // -----------------------------------------------------------------------------
 
+
+// Footer
+// -----------------------------------------------------------------------------
+
 footer {
-	padding: 1.125em 0;
+	padding: 2.125em 0;
 	background-color: $c-black;
 	text-align: center;
 
@@ -12,6 +16,7 @@ footer {
 		color: $c-gray;
 		font-size: .85rem;
 		font-weight: 400;
+		letter-spacing: .045rem;
 	}
 
 	a {
@@ -23,10 +28,14 @@ footer {
 			color: $c-gray-darker;
 		}
 	}
+
+	.fa-heart {
+		color: $c-red;
+	}
 }
 
 
-// Icons
+// Social Icons
 // -----------------------------------------------------------------------------
 
 .social-icons {
@@ -42,19 +51,15 @@ footer {
 		}
 
 		&:nth-of-type(1) a:hover {
-			background-color: $c-facebook;
+			background-color: $c-instagram;
 		}
 
 		&:nth-of-type(2) a:hover {
-			background-color: $c-twitter;
+			background-color: $c-facebook;
 		}
 
 		&:nth-of-type(3) a:hover {
 			background-color: $c-youtube;
-		}
-
-		&:nth-of-type(4) a:hover {
-			background-color: $c-instagram;
 		}
 
 		a {

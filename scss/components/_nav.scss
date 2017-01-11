@@ -1,11 +1,5 @@
-<<<<<<< HEAD:scss/components/_menu.scss
-// Menu
-// -----------------------------------------------------------------------------
-
-=======
 // Navigation
 // -----------------------------------------------------------------------------
->>>>>>> gh-pages:scss/components/_nav.scss
 
 .nav-open {
 	display: block;
@@ -56,26 +50,9 @@
 	background-color: $c-white;
 	z-index: 10;
 
-<<<<<<< HEAD:scss/components/_menu.scss
-	&__header {
-		position: relative;
-		height: 40px;
-		margin: 0 auto;
-		padding: 10px;
-		font-size: 32px;
-		line-height: 40px;
-		overflow: hidden;
-	}
-
-	&__items {
-		position: relative;
-		width: 258px;
-		height: 100%;
-=======
 	&__list {
 		position: relative;
 		width: 258px;
->>>>>>> gh-pages:scss/components/_nav.scss
 		margin: 0 auto;
 		margin-top: .625em;
 		padding: 0;
@@ -87,58 +64,6 @@
 		overflow: hidden;
 	}
 
-<<<<<<< HEAD:scss/components/_menu.scss
-.menu__trigger {
-	display: block;
-	position: fixed;
-	top: 0;
-	right: 0;
-	width: 44px;
-	height: 44px;
-	margin: 10px 20px;
-	border-radius: 50%;
-	background-color: $c-white;
-	color: $c-gray-darkest;
-	font-size: 1.25em;
-	line-height: 44px;
-	text-align: center;
-	cursor: pointer;
-	z-index: 10;
-}
-
-.menu__close {
-	display: block;
-	position: absolute;
-	top: 0;
-	right: 7%;
-	width: 40px;
-	height: 40px;
-	color: $c-gray-darkest;
-	font-size: 30px;
-	line-height: 40px;
-	text-align: center;
-	cursor: pointer;
-
-	&:hover {
-		color: $c-youtube;
-	}
-}
-
-.nav {
-	margin-top: .625em;
-	border-top: .2em solid $c-gray;
-	border-bottom: .2em solid $c-gray;
-
-	&__item {
-		height: 2.5em;
-		border-bottom: 1px solid $c-white-darker;
-		font-weight: bold;
-		letter-spacing: .125em;
-		line-height: 2.5em;
-		text-transform: uppercase;
-
-		&:nth-child(4) {
-=======
 	&__item {
 		height: 2.5em;
 		border-bottom: 1px solid $c-white-darker;
@@ -148,17 +73,13 @@
 		text-transform: uppercase;
 
 		&:last-child {
->>>>>>> gh-pages:scss/components/_nav.scss
 			border-bottom: 0;
 		}
 	}
 
 	&__link {
 		color: $c-gray-darker;
-<<<<<<< HEAD:scss/components/_menu.scss
-=======
 		text-decoration: none;
->>>>>>> gh-pages:scss/components/_nav.scss
 
 		&:hover {
 			color: $c-secondary;
@@ -166,28 +87,21 @@
 	}
 }
 
-<<<<<<< HEAD:scss/components/_menu.scss
-// menu effects
-
-html.active,
-html.active body {
-=======
 // Effects
 // -----------------------------------------------------------------------------
 
 
 .active,
 .active body {
->>>>>>> gh-pages:scss/components/_nav.scss
 	overflow: hidden;
 }
 
-html.active section {
+.active section {
 	transform: matrix(1, 0, 0, 1, -320, 0);
 	transition: all .5s ease-in-out;
 }
 
-#overlay {
+.overlay {
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -203,17 +117,13 @@ html.active section {
 	z-index: 99;
 }
 
-html.active #overlay {
+.active .overlay {
 	transition: all .5s ease-in-out;
 	opacity: .75;
 	visibility: visible;
 }
 
-<<<<<<< HEAD:scss/components/_menu.scss
-html.active menu {
-=======
 .active menu {
->>>>>>> gh-pages:scss/components/_nav.scss
 	z-index: 99;
 
 	.nav__list {

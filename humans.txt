@@ -1,0 +1,18 @@
+/* TEAM */
+
+Author: Mario Terron.
+Location: Barcelona, España.
+Github: http://github.com/marioterron157.
+Twitter: @MarioTerron157.
+
+
+/* THANKS */
+
+Blaz Robar: http://blazrobar.com
+Ilya Caulfield: http://github.com/VodkaBears
+
+/* SITE */
+
+Last update: 11/01/2017.
+Standards: HTML5, CSS3.
+Components: jQuery, Normalize, Remodal.

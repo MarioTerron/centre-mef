@@ -1,4 +1,30 @@
-@import 'components/activity-card';
+@import '../components/activity-card';
+
+
+// -----------------------------------------------------------------------------
+//    $ACTIVITIES
+// -----------------------------------------------------------------------------
+
+
+// Activities
+// -----------------------------------------------------------------------------
+
+.activities {
+
+	.container {
+		padding-right: 0;
+		padding-left: 0;
+
+		@include media(md) {
+			padding-right: .9em;
+			padding-left: .9em;
+		}
+	}
+}
+
+
+// Green & Pink Section
+// -----------------------------------------------------------------------------
 
 .green-section {
 	background-color: $c-secondary;
@@ -14,51 +40,67 @@
 	}
 }
 
+
+// Green Card Styles
+// -----------------------------------------------------------------------------
+
 .green-card {
 	background-color: $c-secondary;
 
 	.activity-card__title,
 	.activity-card__subtitle,
-	.activity-card__description {
-	color: $c-white;
+	.activity-card__description,
+	a {
+		color: $c-white;
+	}
+
+	a:hover {
+		color: $c-white-darker;
 	}
 }
 
+
+// URL Images
+// -----------------------------------------------------------------------------
+
 .img-1 {
-	background-image: url('../img/A1.jpg');
+	background-image: url('../img/zumba.jpg');
 }
 
 .img-2 {
-	background-image: url('../img/A2.jpg');
+	background-image: url('../img/aerodansa.jpg');
 }
 
 .img-3 {
-	background-image: url('../img/A3.jpg');
+	background-image: url('../img/estiraments.jpg');
 }
 
 .img-4 {
-	background-image: url('../img/A4.jpg');
+	background-image: url('../img/jumping.jpg');
 }
 
 .img-5 {
-	background-image: url('../img/A5.jpg');
+	background-image: url('../img/pilates.jpg');
 }
 
 .img-6 {
-	background-image: url('../img/A6.jpg');
+	background-image: url('../img/gac.jpg');
 }
 
+
+// Remodal Custom Styles
+// -----------------------------------------------------------------------------
+
 .remodal {
+	text-align: left;
+
 	h1,
 	h2,
 	h3,
 	h4,
 	h5 {
-		color: $c-secondary;
+		color: $c-primary;
+		text-align: center;
 		text-transform: uppercase;
-	}
-
-	p {
-		font-size: .875rem;
 	}
 }

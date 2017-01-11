@@ -3,7 +3,7 @@
 // ------------------------------------
 
 
-// Colours
+// Colors
 // -----------------------------------------------------------------------------
 
 $c-white:				    #fff;
@@ -14,24 +14,19 @@ $c-gray-darker:		   		lighten($c-black, 25%);
 $c-gray-darkest:     		lighten($c-black, 15%);
 $c-shadow:					rgba(0, 0, 0, .4);
 
-$c-primary:					#E91E63;
+$c-primary:					#e91e63;
 $c-primary-darken:			darken($c-primary, 20%);
 $c-primary-lighten:			lighten($c-primary, 20%);
-$c-secondary: 	      		#8BC34A;
+$c-secondary: 	      		#8bc34a;
 $c-secondary-darken:		darken($c-secondary, 20%);
 $c-secondary-lighten:		lighten($c-secondary, 20%);
 
 $c-facebook:         		#3b5998;
 $c-twitter:          		#55acee;
 $c-youtube:          		#cd201f;
-$c-instagram:				#675144;
+$c-instagram:				#833ab4;
 
-$c-header: 					$c-primary;
-$c-base:					$c-gray;
-$c-link:					$c-secondary;
-$c-link-hover:				$c-secondary-lighten;
-
-$c-red:						#D32F2F;
+$c-red:						#d32f2f;
 
 
 
@@ -44,10 +39,10 @@ $fw-regular:			400;
 $fw-bold:				600;
 
 // Base Fonts
-$ff-base:         			('Open Sans', sans-serif);
-$fw-base:					$fw-regular;
-$fz-base:					1rem;
-$lh-base:					1.4;
+$ff-base:         		('Lato', sans-serif);
+$fw-base:				$fw-regular;
+$fz-base:				1rem;
+$lh-base:				1.4;
 
 //Header Fonts
 $ff-header:       		('Montserrat', sans-serif);
@@ -57,7 +52,7 @@ $fw-header:				$fw-regular;
 // Breakpoints
 // -----------------------------------------------------------------------------
 
-$bp-small:			 34em;   			// 544px
-$bp-medium:          48em;   			// 768px
-$bp-large:           62em;   			// 992px
-$bp-xlarge:          76em;   			// 1200px
+$bp-small:			 34em;
+$bp-medium:          48em;
+$bp-large:           66em;
+$bp-xlarge:          76em;

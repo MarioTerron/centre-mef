@@ -10,9 +10,9 @@
 
 ## Authors
 
-* **Mario Terron** - *Initial work* - [marioterron157](https://github.com/marioterron157)
+* **Mario Terron** - *Initial work* - [marioterron157](http://github.com/marioterron157)
 
 ## Acknowledgments
 
 * [Blaz Robar](http://blazrobar.com/).
-* [Ilya Caulfield](https://github.com/VodkaBears).
+* [Ilya Caulfield](http://github.com/VodkaBears).
