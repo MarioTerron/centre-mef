@@ -7,7 +7,7 @@
 		"uuidString": "8E0A7BA8-A1D2-40A0-B48A-0F7656BE2654"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25479",
 "files": {
 	"\/.editorconfig": {
 		"ft": 8192,
@@ -21,16 +21,16 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/charities.html": {
+	"\/col·laborem.html": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/charities.html",
+		"oAP": "\/col·laborem.html",
 		"oF": 0
 		},
-	"\/contact.html": {
+	"\/contactans.html": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/contact.html",
+		"oAP": "\/contactans.html",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/030433497c4e1cd9b88c93b87f4ce513448234bc\/_float.scssc": {
@@ -295,6 +295,12 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
 	"\/fonts\/fontawesome-webfont.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -333,6 +339,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/FontAwesome.otf",
+		"oF": 0
+		},
+	"\/gracies-per-contactar.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/gracies-per-contactar.html",
+		"oF": 0
+		},
+	"\/humans.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/humans.txt",
 		"oF": 0
 		},
 	"\/img\/aerodansa.jpg": {
@@ -462,15 +480,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/min\/nav-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/min\/min\/nav-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/js\/nav.js": {
 		"ft": 64,
 		"mi": 1,
@@ -488,12 +497,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/location.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/location.html",
-		"oF": 0
 		},
 	"\/php\/mail.php": {
 		"ft": 8192,
@@ -518,6 +521,12 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/robots.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/robots.txt",
+		"oF": 0
 		},
 	"\/scss\/.sass-cache\/331c61a746a8e6e260ecb8e10be1d7953fd976a0\/_activities.scssc": {
 		"ft": 8192,
@@ -950,10 +959,10 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/thank-you-contact.html": {
+	"\/ubicacio.html": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/thank-you-contact.html",
+		"oAP": "\/ubicacio.html",
 		"oF": 0
 		},
 	"\/video\/mef.mp4": {
@@ -1415,6 +1424,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -1578,6 +1591,10 @@
 		"max-statements": {
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
 			},
 		"multiline-ternary": {
 			"active": 0,
@@ -1943,6 +1960,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -2174,6 +2195,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -3007,6 +3032,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {

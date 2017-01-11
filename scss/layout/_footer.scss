@@ -16,6 +16,7 @@ footer {
 		color: $c-gray;
 		font-size: .85rem;
 		font-weight: 400;
+		letter-spacing: .045rem;
 	}
 
 	a {
@@ -26,6 +27,10 @@ footer {
 		&:hover {
 			color: $c-gray-darker;
 		}
+	}
+
+	.fa-heart {
+		color: $c-red;
 	}
 }
 

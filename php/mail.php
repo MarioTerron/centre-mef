@@ -1,7 +1,7 @@
 <?php
 
-$EmailTo = "marioterron157@gmail.com";
-$Subject = "Questions from your contact form";
+$EmailTo = "hps@centremef.com";
+$Subject = "Preguntes del formulari de contacte de la pàgina web";
 $Name = Trim(stripslashes($_POST['name']));
 $Tel = Trim(stripslashes($_POST['phone']));
 $Email = Trim(stripslashes($_POST['email']));
@@ -16,16 +16,16 @@ if (!$validationOK) {
 
 // prepare email body text
 $Body = "";
-$Body .= "Name: ";
+$Body .= "Nom: ";
 $Body .= $Name;
 $Body .= "\n";
-$Body .= "Tel: ";
+$Body .= "Tlf: ";
 $Body .= $Tel;
 $Body .= "\n";
-$Body .= "Email: ";
+$Body .= "Mail: ";
 $Body .= $Email;
 $Body .= "\n";
-$Body .= "Message: ";
+$Body .= "Missatge: ";
 $Body .= $Message;
 $Body .= "\n";
 
@@ -34,7 +34,7 @@ $success = mail($EmailTo, $Subject, $Body);
 
 // redirect to success page
 if ($success){
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=../thank-you-contact-form.html\">";
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=../gracies-per-contactar.html\">";
 }
 else{
   print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
