@@ -377,6 +377,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/circuit-training.jpg": {
+		"ft": 16384,
+		"iS": 114513,
+		"oA": 0,
+		"oAP": "\/img\/circuit-training.jpg",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/img\/estiraments.jpg": {
 		"ft": 16384,
 		"iS": 9729275,
@@ -423,7 +431,7 @@
 		"oA": 0,
 		"oAP": "\/img\/horaris.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/img\/jumping.jpg": {
 		"ft": 16384,
@@ -432,14 +440,6 @@
 		"oAP": "\/img\/jumping.jpg",
 		"oF": 0,
 		"opt": 0
-		},
-	"\/img\/pilates.jpg": {
-		"ft": 16384,
-		"iS": 256952,
-		"oA": 0,
-		"oAP": "\/img\/pilates.jpg",
-		"oF": 0,
-		"opt": 1
 		},
 	"\/img\/staticmap.jpg": {
 		"ft": 16384,
