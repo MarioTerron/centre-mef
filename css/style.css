@@ -3183,7 +3183,11 @@ video {
   background-image: url("../img/jumping.jpg"); }
 
 .img-5 {
+<<<<<<< HEAD
   background-image: url("../img/pilates.jpg"); }
+=======
+  background-image: url("../img/circuit-training.jpg"); }
+>>>>>>> master
 
 .img-6 {
   background-image: url("../img/gac.jpg"); }

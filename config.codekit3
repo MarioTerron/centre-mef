@@ -369,6 +369,7 @@
 		"oF": 0,
 		"opt": 0
 		},
+<<<<<<< HEAD
 	"\/img\/banner.JPG": {
 		"ft": 16384,
 		"iS": 1364350,
@@ -377,6 +378,24 @@
 		"oF": 0,
 		"opt": 0
 		},
+=======
+	"\/img\/banner.jpg": {
+		"ft": 16384,
+		"iS": 1267560,
+		"oA": 0,
+		"oAP": "\/img\/banner.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/circuit-training.jpg": {
+		"ft": 16384,
+		"iS": 114513,
+		"oA": 0,
+		"oAP": "\/img\/circuit-training.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+>>>>>>> master
 	"\/img\/estiraments.jpg": {
 		"ft": 16384,
 		"iS": 9729275,
@@ -403,7 +422,11 @@
 		},
 	"\/img\/header-sm.JPG": {
 		"ft": 16384,
+<<<<<<< HEAD
 		"iS": 1287670,
+=======
+		"iS": 1190917,
+>>>>>>> master
 		"oA": 0,
 		"oAP": "\/img\/header-sm.jpg",
 		"oF": 0,
@@ -411,7 +434,11 @@
 		},
 	"\/img\/header.JPG": {
 		"ft": 16384,
+<<<<<<< HEAD
 		"iS": 1303870,
+=======
+		"iS": 1197783,
+>>>>>>> master
 		"oA": 0,
 		"oAP": "\/img\/header.jpg",
 		"oF": 0,
@@ -423,7 +450,11 @@
 		"oA": 0,
 		"oAP": "\/img\/horaris.jpg",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0
+=======
+		"opt": 1
+>>>>>>> master
 		},
 	"\/img\/jumping.jpg": {
 		"ft": 16384,
@@ -433,6 +464,7 @@
 		"oF": 0,
 		"opt": 0
 		},
+<<<<<<< HEAD
 	"\/img\/pilates.jpg": {
 		"ft": 16384,
 		"iS": 256952,
@@ -441,12 +473,15 @@
 		"oF": 0,
 		"opt": 0
 		},
+=======
+>>>>>>> master
 	"\/img\/staticmap.jpg": {
 		"ft": 16384,
 		"iS": 92168,
 		"oA": 0,
 		"oAP": "\/img\/staticmap.jpg",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0
 		},
 	"\/img\/tramuntanets.jpg": {
@@ -456,6 +491,17 @@
 		"oAP": "\/img\/tramuntanets.jpg",
 		"oF": 0,
 		"opt": 1
+=======
+		"opt": 1
+		},
+	"\/img\/tramuntanets.jpg": {
+		"ft": 16384,
+		"iS": 15789,
+		"oA": 0,
+		"oAP": "\/img\/tramuntanets.jpg",
+		"oF": 0,
+		"opt": 0
+>>>>>>> master
 		},
 	"\/img\/zumba.jpg": {
 		"ft": 16384,
@@ -480,6 +526,36 @@
 		"sC": 1,
 		"tS": 0
 		},
+<<<<<<< HEAD
+=======
+	"\/js\/min\/jquery.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/min\/jquery.min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/min\/nav-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/min\/nav-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/min\/remodal.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/min\/remodal.min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+>>>>>>> master
 	"\/js\/nav.js": {
 		"ft": 64,
 		"mi": 1,
@@ -500,7 +576,11 @@
 		},
 	"\/php\/mail.php": {
 		"ft": 8192,
+<<<<<<< HEAD
 		"oA": 0,
+=======
+		"oA": 2,
+>>>>>>> master
 		"oAP": "\/php\/mail.php",
 		"oF": 0
 		},
@@ -534,6 +614,7 @@
 		"oAP": "\/scss\/.sass-cache\/331c61a746a8e6e260ecb8e10be1d7953fd976a0\/_activities.scssc",
 		"oF": 0
 		},
+<<<<<<< HEAD
 	"\/scss\/.sass-cache\/331c61a746a8e6e260ecb8e10be1d7953fd976a0\/_banner.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -564,12 +645,15 @@
 		"oAP": "\/scss\/.sass-cache\/331c61a746a8e6e260ecb8e10be1d7953fd976a0\/_footer.scssc",
 		"oF": 0
 		},
+=======
+>>>>>>> master
 	"\/scss\/.sass-cache\/331c61a746a8e6e260ecb8e10be1d7953fd976a0\/_header.scssc": {
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/331c61a746a8e6e260ecb8e10be1d7953fd976a0\/_header.scssc",
 		"oF": 0
 		},
+<<<<<<< HEAD
 	"\/scss\/.sass-cache\/331c61a746a8e6e260ecb8e10be1d7953fd976a0\/_index.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -594,6 +678,8 @@
 		"oAP": "\/scss\/.sass-cache\/34c70f6255db67dea3142d498897fdc1c7eeaf2e\/_activities.scssc",
 		"oF": 0
 		},
+=======
+>>>>>>> master
 	"\/scss\/.sass-cache\/34c70f6255db67dea3142d498897fdc1c7eeaf2e\/_activity-card.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -618,24 +704,30 @@
 		"oAP": "\/scss\/.sass-cache\/34c70f6255db67dea3142d498897fdc1c7eeaf2e\/_footer.scssc",
 		"oF": 0
 		},
+<<<<<<< HEAD
 	"\/scss\/.sass-cache\/34c70f6255db67dea3142d498897fdc1c7eeaf2e\/_header.scssc": {
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/34c70f6255db67dea3142d498897fdc1c7eeaf2e\/_header.scssc",
 		"oF": 0
 		},
+=======
+>>>>>>> master
 	"\/scss\/.sass-cache\/34c70f6255db67dea3142d498897fdc1c7eeaf2e\/_menu.scssc": {
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/34c70f6255db67dea3142d498897fdc1c7eeaf2e\/_menu.scssc",
 		"oF": 0
 		},
+<<<<<<< HEAD
 	"\/scss\/.sass-cache\/34c70f6255db67dea3142d498897fdc1c7eeaf2e\/_nav.scssc": {
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/34c70f6255db67dea3142d498897fdc1c7eeaf2e\/_nav.scssc",
 		"oF": 0
 		},
+=======
+>>>>>>> master
 	"\/scss\/.sass-cache\/446401e8da6671107cbc3c4a3155e3b47eb689ba\/_breakpoints.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -648,6 +740,7 @@
 		"oAP": "\/scss\/.sass-cache\/446401e8da6671107cbc3c4a3155e3b47eb689ba\/_variables.scssc",
 		"oF": 0
 		},
+<<<<<<< HEAD
 	"\/scss\/.sass-cache\/78aa2a9e2902df8b7a7e14bdc4123e756c6e0c9d\/_activities.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -696,6 +789,8 @@
 		"oAP": "\/scss\/.sass-cache\/78aa2a9e2902df8b7a7e14bdc4123e756c6e0c9d\/location.scssc",
 		"oF": 0
 		},
+=======
+>>>>>>> master
 	"\/scss\/.sass-cache\/811f6c4cdab53d6b1d4107761dbf28db499b03a9\/_base.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -708,12 +803,15 @@
 		"oAP": "\/scss\/.sass-cache\/811f6c4cdab53d6b1d4107761dbf28db499b03a9\/_reset.scssc",
 		"oF": 0
 		},
+<<<<<<< HEAD
 	"\/scss\/.sass-cache\/811f6c4cdab53d6b1d4107761dbf28db499b03a9\/_typography.scssc": {
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/811f6c4cdab53d6b1d4107761dbf28db499b03a9\/_typography.scssc",
 		"oF": 0
 		},
+=======
+>>>>>>> master
 	"\/scss\/.sass-cache\/d50db677768b52418b15e583bffdaec7b69856fd\/style.scssc": {
 		"ft": 8192,
 		"oA": 2,
@@ -791,12 +889,15 @@
 		"oS": 0,
 		"uL": 1
 		},
+<<<<<<< HEAD
 	"\/scss\/layout\/.sass-cache\/78aa2a9e2902df8b7a7e14bdc4123e756c6e0c9d\/location.scssc": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/layout\/.sass-cache\/78aa2a9e2902df8b7a7e14bdc4123e756c6e0c9d\/location.scssc",
 		"oF": 0
 		},
+=======
+>>>>>>> master
 	"\/scss\/layout\/_activities.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -862,12 +963,15 @@
 		"oS": 0,
 		"uL": 1
 		},
+<<<<<<< HEAD
 	"\/scss\/pages\/.sass-cache\/331c61a746a8e6e260ecb8e10be1d7953fd976a0\/contact.scssc": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/pages\/.sass-cache\/331c61a746a8e6e260ecb8e10be1d7953fd976a0\/contact.scssc",
 		"oF": 0
 		},
+=======
+>>>>>>> master
 	"\/scss\/pages\/_charities.scss": {
 		"aP": 0,
 		"bl": 0,
