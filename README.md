@@ -1,18 +1,25 @@
-# CENTRE MEF
+# [Centre MEF](http://marioterron.github.io/centre-mef/)
 
-[Centre MEF](http://marioterron157.github.io/centre-mef/) website is my first personal project based on [Fitness free PSD template](http://blazrobar.com/free-psd-website-templates/fitness-free-photoshop-psd-template/) by **Blaz Robar**.
+[Centre MEF](http://marioterron.github.io/centre-mef/) is a website based on [Fitness free PSD template](http://blazrobar.com/free-psd-website-templates/fitness-free-photoshop-psd-template/) by [Blaz Robar](http://blazrobar.com/).
+
+The key files are only:
+
+- HTML Page: index.html
+- Stylesheet (built with SASS): /scss/style.scss
+- JS file: /js/nav.js
 
 ## Built With
 
-* HTML5
-* CSS
-* Javascript
+- HTML
+- CSS
+- Javascript - jQuery
 
 ## Authors
 
-* **Mario Terron** - *Initial work* - [marioterron157](http://github.com/marioterron157)
+- [Mario Terron](http://github.com/marioterron__)
 
 ## Acknowledgments
 
-* [Blaz Robar](http://blazrobar.com/).
-* [Ilya Caulfield](http://github.com/VodkaBears).
+- [Fitness free Photoshop PSD template](http://blazrobar.com/free-psd-website-templates/fitness-free-photoshop-psd-template/) by [Blaz Robar](http://blazrobar.com/).
+- [Remodal](https://vodkabears.github.io/remodal/) by [Ilya Caulfield](http://github.com/VodkaBears)
+
