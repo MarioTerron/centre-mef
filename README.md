@@ -16,7 +16,7 @@ The key files are only:
 
 ## Authors
 
-- [Mario Terron](http://github.com/marioterron__)
+- [Mario Terron](http://twitter.com/marioterron__)
 
 ## Acknowledgments
 
